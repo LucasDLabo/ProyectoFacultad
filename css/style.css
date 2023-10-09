@@ -38,3 +38,72 @@ body{
     align-items: center;
     gap: 15px;
 }
+.boxContent{
+    display: flex;
+    background-color: red;
+    margin-top: 50px;
+    height: 300px;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.catalogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/placeholder.png);
+    height: 230px;
+    width: 300px;
+    background-size: 300px 230px;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+.rnd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/placeholder.png), #015A76;
+    height: 230px;
+    width: 300px;
+    background-size: 300px 230px;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+.boxRegister{
+    margin-top: 50px;
+    display: flex;
+    background-color: #015A76;
+    height: 300px;
+    flex-direction: column;
+}
+.boxRegister div{
+    font-size: 20px;
+    color: white;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+.boxRegister div button{
+    background-color: yellow;
+    border: none;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 12px;
+    display: flex;
+    height: 20%;
+    justify-content: end;
+}
