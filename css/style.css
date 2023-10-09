@@ -1,0 +1,40 @@
+/* Pasos para GIT
+Git add .
+Git Status
+Git commit -m "comentario"
+Git push -u origin master */
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.boxNav{
+    background-color: #015A76;
+    height: 50px; 
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.boxNav img{
+    width: auto;
+    height: 45px;
+}
+.boxNav a{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    display: flex;
+    background-color: red;
+    width: 100%;
+    justify-content: flex-start;
+}
+.profile{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
