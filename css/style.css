@@ -8,102 +8,146 @@ body{
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+header{
+    height: 100vh;
+}
+.boxScroll{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.boxTitulos{
+    display: flex;
+    height: 84.3%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+.title{
+    display: flex;
+    color: white;
+    margin: 0;
+    font-size: 100px;
+}
+.subtitle{
+    display: flex;
+    color: white;
+    margin: 0;
+}
 .boxNav{
-    background-color: #015A76;
+    background-color: rgba(0, 0, 0, 0.658);
     height: 50px; 
     display: flex;
     align-items: center;
     width: 100%;
 }
-.boxNav img{
-    width: auto;
-    height: 45px;
-}
 .boxNav a{
     display: flex;
-    width: 100%;
+    width: 20%;
     justify-content: center;
     text-decoration: none;
+    align-items: center;
     color: white;
+    height: 100%;
 }
-.logo{
-    display: flex;
-    background-color: red;
+.ImagenFondo{
+    overflow: hidden;
     width: 100%;
-    justify-content: flex-start;
+    height: 100vh;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
 }
-.profile{
+.rutas{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 15px;
+    width: 80%;
+    height: 100%;
+}
+.rutas ul{
+    font-size: 13px;
+    list-style-type: none;
+    height: 100%;
+}
+.rutas ul li{
+    float: left;
+    display: flex;
+    height: 100%;
+}
+.rutas ul li a{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    width: auto;
+    height: 100%;
+}
+.rutas ul li a:hover{
+    background-color: black;
+    transition: .1s;
+
+}
+
+.mainWidth{
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    /* background-color: aqua; */
+    flex-direction: column;
 }
 .boxContent{
     display: flex;
-    background-color: red;
-    margin-top: 50px;
-    height: 300px;
-    gap: 30px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-.catalogo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(/placeholder.png);
-    height: 230px;
-    width: 300px;
-    background-size: 300px 230px;
-    background-repeat: no-repeat;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    font-size: 35px;
-    font-weight: bold;
-
-}
-.rnd{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url(/placeholder.png), #015A76;
-    height: 230px;
-    width: 300px;
-    background-size: 300px 230px;
-    background-repeat: no-repeat;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    font-size: 35px;
-    font-weight: bold;
-}
-.boxRegister{
-    margin-top: 50px;
-    display: flex;
-    background-color: #015A76;
-    height: 300px;
+    /* background-color: red; */
     flex-direction: column;
-}
-.boxRegister div{
-    font-size: 20px;
-    color: white;
-    height: 100%;
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    background-color: aqua;
-}
-.boxRegister div button{
-    background-color: yellow;
-    border: none;
     width: 50%;
+    text-transform: uppercase;
+    height: auto;
     text-align: center;
-    border-radius: 10px;
-    font-size: 30px;
-    padding: 12px;
-    display: flex;
-    height: 20%;
-    justify-content: end;
+    align-items: center;
+    justify-content: center;
 }
+.bodyTitle{
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: -2px;
+}
+.descripcion{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.highlight{
+    color: #015A76;
+    background-color: transparent;
+}
+.separador{
+    display: flex;
+    /* background-color: green; */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+}
+.separador hr{
+    margin: 0;
+    height: 1px;
+    width: 50px;
+    color: black;
+    background-color: black;
+    border: solid 1px black;
+}
+.separador div{
+    margin: 0;
+    content: "";
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    background-color: #015A76;
+}
+
