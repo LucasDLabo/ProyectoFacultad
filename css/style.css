@@ -3,6 +3,9 @@ Git add .
 Git Status
 Git commit -m "comentario"
 Git push -u origin master */
+html {
+    scroll-behavior: smooth;
+}
 body{
     padding: 0px;
     margin: 0px;
@@ -10,6 +13,7 @@ body{
 }
 header{
     height: 100vh;
+    margin-bottom: 60px;
 }
 .boxScroll{
     display: flex;
@@ -93,6 +97,7 @@ header{
 
 }
 
+
 .mainWidth{
     display: flex;
     height: auto;
@@ -113,7 +118,17 @@ header{
     align-items: center;
     justify-content: center;
 }
+.boxContent a{
+    text-decoration: none;
+    margin-top: 30px;
+    color: white;
+    background-color: #015A76;
+    padding: 15px;
+    font-size: 20px;
+}
 .bodyTitle{
+    margin: 0;
+    margin-bottom: 30px;
     font-size: 40px;
     font-weight: bolder;
     letter-spacing: -2px;
@@ -121,6 +136,7 @@ header{
 .descripcion{
     font-size: 18px;
     font-weight: bolder;
+    margin: 0;
 }
 .highlight{
     color: #015A76;
@@ -133,6 +149,8 @@ header{
     justify-content: center;
     width: 100%;
     gap: 15px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 .separador hr{
     margin: 0;
@@ -151,3 +169,49 @@ header{
     background-color: #015A76;
 }
 
+.boxRegister{
+    display: flex;
+    background-color: #015A76;
+    flex-direction: column;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 40px;
+    margin-bottom: 120px;
+}
+.boxRegister a{
+    font-size: 30px;
+    margin-top: 60px;
+    text-decoration: none;
+    color: black;
+    background-color: #FFF500;
+    width: 30%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+}
+.highlight2{
+    background-color: transparent;
+    color: #FFF500;
+}
+.boxSpam{
+    display: flex;
+    height: 300px;
+    background-color: #2B2B2B;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+.boxSpam a{
+    text-decoration: none;
+    color: #FFF500;
+}
