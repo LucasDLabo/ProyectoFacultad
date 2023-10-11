@@ -77,3 +77,72 @@ html{
     width: 1.563rem;
 }
 
+.boxAlbums{
+    background-color: #D9D9D9;
+    height: 600px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+    box-shadow:15px 15px 20px -1px rgba(0,0,0,1);
+    display: grid;
+    align-items: center;
+    grid-template-rows: 60px 1fr auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    height: 100%;
+    padding: 15px;
+    color: white;
+}
+.boxAlbumsTitles{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 5;
+    background-color: #550840;
+    text-align: center;
+    justify-items: center;
+    align-content: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 40px;
+}
+.tarjeta{
+    display: grid;
+    background-color: #550840;
+    align-content: space-between;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    height: 320px;
+}
+.tarjeta img{
+    width: 150px;
+    height: 150px;
+    border: solid 12px wheat;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.tarjeta h4{
+    font-weight: bolder;
+    font-size: 40px;
+    font-style: italic;
+}
+.tarjetaLike{
+    background-color: #550840;
+    border-radius: 10px;
+    display: grid;
+    justify-items: center;
+    padding: 20px;
+    text-align: center;
+}
+.tarjetaLike hr{
+    width: 100%;
+}
+.tarjetaLike button{
+    margin-top: 20px;
+}
+.albumLinks{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
