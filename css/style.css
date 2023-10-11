@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 1.2vw;
+}
+.boxNav{
+    background-color: rgba(0, 0, 0, 0.658);
+    height: 3.125rem; 
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-transform: uppercase;
+}
+.boxNav a{
+    
+    display: flex;
+    width: 20%;
+    justify-content: start;
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    height: 100%;
+    padding-left: 0.938rem;
+}
+.rutas{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.938rem;
+    width: 80%;
+    height: 100%;
+}
+.rutas ul{
+    font-size: 0.813rem;
+    list-style-type: none;
+    height: 100%;
+}
+.rutas ul li{
+    float: left;
+    display: flex;
+    height: 100%;
+}
+.rutas ul li a{
+    padding-left: 0.313rem;
+    padding-right: 0.313rem;
+    text-align: center;
+    width: auto;
+    height: 100%;
+}
+.rutas ul li a:hover{
+    background-color: black;
+    transition: .1s;
+}
+
+.boxPages{
+    display: flex;
+    width: 100%;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+    justify-content: center;
+    height: 2.5rem;
+    gap: 1.25rem;
+}
+.boxPages button{
+    background-color: #D9D9D9;
+    color: #015A76;
+    border-style: none;
+    width: 2.5rem;
+    font-weight: bolder;
+    font-size: 1.25rem;
+}
+#back, #next{
+    width: 1.563rem;
+}
+
