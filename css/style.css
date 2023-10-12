@@ -79,7 +79,6 @@ html{
 
 .boxAlbums{
     background-color: #D9D9D9;
-    height: 600px;
     margin-left: 30px;
     margin-right: 30px;
     border-radius: 20px;
@@ -88,7 +87,7 @@ html{
     align-items: center;
     grid-template-rows: 60px 1fr auto;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 15px;
+    gap: 20px;
     height: 100%;
     padding: 15px;
     color: white;
@@ -100,48 +99,36 @@ html{
     grid-column-end: 5;
     background-color: #550840;
     text-align: center;
-    justify-items: center;
-    align-content: center;
     text-transform: uppercase;
     border-radius: 10px;
     font-size: 40px;
 }
-
-/* .tarjeta{
-    margin: 0;
-    padding: 0;
-    line-height: 2vw;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #3F2305;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    height: 28vw;
+.boxTarjetas{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    font-size: 1.4vw;
-    border-radius: 10px;
-    width: 21vw;
-    padding: 20px;
-    scroll-behavior: smooth;
-} */
+}
 .tarjeta{
-    line-height: 2vw;
-    color: white;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #550840;
     overflow-y: scroll;
     overflow-x: hidden;
-    height: 28vw;
+    height: 380px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    font-size: 1.4vw;
+    font-size: 20px;
     border-radius: 10px;
     width: auto;
     padding: 20px;
     scroll-behavior: smooth;
+}
+.tarjeta img:hover{
+    transform: scale(1.1);
+    transition: .1s;
+    border: solid 3px wheat;
+}
+.tarjeta img:not(hover){
+    transition: .1s;
+
 }
 .tarjeta::-webkit-scrollbar{
     display: none;
@@ -149,7 +136,7 @@ html{
 .tarjetaPortada{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: auto 180px 45px 10px auto;
+    grid-template-rows: 165px 200px 45px 10px auto;
     justify-items: center;
     align-items: center;
 }
@@ -181,27 +168,47 @@ html{
     width: 100%;
     color: white;
     border: solid 1px white;
+    margin-bottom: 15px;
 }
 .tarjetaDescrip{
     display: flex;
+    flex-direction: column;
     height: auto;
+    text-align: start;
 }
+.tarjetaDescrip p{
+    margin-bottom: 5px;
+}
+
 
 .tarjetaLike{
     background-color: #550840;
     border-radius: 10px;
     display: grid;
     justify-items: center;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 .tarjetaLike hr{
     width: 100%;
 }
 .tarjetaLike button{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .albumLinks{
     margin-top: 5px;
     margin-bottom: 5px;
+    font-size: 15px;
+}
+.albumLinks img{
+    margin-top: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.albumLinks img:hover{
+    transform: scale(1.2);
+}
+.albumLinks img:not(:hover){
+    transition: 0s;
 }
