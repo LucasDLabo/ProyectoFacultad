@@ -3,6 +3,9 @@
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+html{
+    font-size: 1.2vw;
+}
 body{
     overflow-x: hidden;
 }
@@ -13,7 +16,6 @@ nav{
     color: white;
     justify-content: center;
     align-items: center;
-    z-index: 0;
 }
 .dibujo1{
     position: absolute;
@@ -42,10 +44,10 @@ nav{
     margin-top: 1.563rem;
 }
 .formulario{
-    width: 25rem;
-    text-align: center;
     display: flex;
     flex-direction: column;
+    width: 25rem;
+    text-align: center;
     background-color: #D9D9D9;
     gap: 1.875rem;
     padding: 2.5rem;
@@ -60,13 +62,35 @@ nav{
 .formulario input{
     height: 2.5rem;
     font-size: 1.25rem;
+    width: 100%;
+    text-indent: 0.5rem;
+}
+.goback{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.texto{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+
+.goback a,img{
+    height: 2.5rem;
+    width: 2.5rem;
 }
 .formBotones{
     display: flex;
     margin-top: 1.875rem;
     justify-content: space-between;
     align-items: center;
-    height: 3.125rem;
+    height: 3.3rem;
+    gap: 2rem;
 }
 .formBotones input{
     border: none;
@@ -76,13 +100,28 @@ nav{
     border-radius: 0.625rem;
     text-align: center;
     height: 100%;
+    text-indent: 0rem;
 }
-.formBotones button{
+.formBotones a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
     border: none;
-    padding: 0.625rem;
     height: 100%;
+    width: 90%;
+    font-size: 0.65rem;
     background-color: white;
+    text-align: center;
 }
+
+
+.formBotones input:active{
+    transform: scale(0.95);
+}
+
+
 .boxUser{
     display: flex;
     align-items: center;
