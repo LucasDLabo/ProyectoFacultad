@@ -3,67 +3,88 @@
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+body{
+    overflow-x: hidden;
+}
 nav{
     display: flex;
-    background-color: #015A76;
-    height: 120px;
-    font-size: 60px;
+    height: 7.5rem;
+    font-size: 3.75rem;
     color: white;
     justify-content: center;
     align-items: center;
+    z-index: 0;
+}
+.dibujo1{
+    position: absolute;
+    background-color: #015A76;
+    height: 8.125rem;
+    width: 150%;
+    z-index: -1;
+    margin-top: 0.313rem;
+    rotate: -3deg;
+}
+.dibujo2{
+    position: absolute;
+    background-color: black;
+    height: 8.75rem;
+    width: 150%;
+    z-index: -1;
+    margin-top: 0.313rem;
+    rotate: 3deg;
 }
 .boxForm{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: calc(100vh - 10.625rem);
+    margin-top: 1.563rem;
 }
 .formulario{
-    width: 400px;
+    width: 25rem;
     text-align: center;
     display: flex;
     flex-direction: column;
     background-color: #D9D9D9;
-    gap: 30px;
-    padding: 40px;
-    height: 500px;
+    gap: 1.875rem;
+    padding: 2.5rem;
+    height: 18.75rem;
     justify-content: start;
-    border-radius: 20px;
-    box-shadow: 15px 15px #015A76;
+    border-radius: 1.25rem;
+    box-shadow: 0.938rem 0.938rem #015A76;
 }
 .formulario p{
     font-weight: bolder;
 }
 .formulario input{
-    height: 40px;
-    font-size: 20px;
+    height: 2.5rem;
+    font-size: 1.25rem;
 }
 .formBotones{
     display: flex;
-    margin-top: 30px;
+    margin-top: 1.875rem;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 3.125rem;
 }
 .formBotones input{
     border: none;
     background-color: #015A76;
     color: white;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 0.625rem;
+    border-radius: 0.625rem;
     text-align: center;
     height: 100%;
 }
 .formBotones button{
     border: none;
-    padding: 10px;
+    padding: 0.625rem;
     height: 100%;
     background-color: white;
 }
 .boxUser{
     display: flex;
-    /* background-color: red; */
     align-items: center;
     width: auto;
     height: auto;
@@ -71,10 +92,10 @@ nav{
 }
 .boxUser img{
     background-color: #015A76;
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 .boxUser input{
-    height: 50px;
+    height: 3.125rem;
     border: none;
 }
