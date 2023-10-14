@@ -139,7 +139,7 @@ nav{
     height: 3.125rem;
     border: none;
 } 
-header{
+.header{
     height: 100vh;
     margin-bottom: 3.75rem;
 }
@@ -193,6 +193,9 @@ header{
     display: flex;
     align-items: center;
     width: 100%;
+}
+.boxNav h1{
+    font-size: 1.5rem;
 }
 .boxNav a,h1{
     display: flex;

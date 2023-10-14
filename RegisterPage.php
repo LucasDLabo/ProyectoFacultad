@@ -49,7 +49,7 @@
     </header>
 
     <main>
-        <div class="boxForm">
+        <div class="boxForm" style="margin-top:3.3rem;">
             <form action="" method="post" class="formulario" style="height: auto;">
                 <div class="goback">
                     <a href="index.php" title="Volver"><img src="img/LoginPage/back.png" alt=""></a>

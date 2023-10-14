@@ -44,7 +44,7 @@
         <div class="boxForm">
             <form action="" method="post" class="formulario">
                 <div class="goback">
-                    <a href="index.php" title="Volver"><img src="img/LoginPage/back.png" alt=""></a>
+                    <a href="index.html" title="Volver"><img src="img/LoginPage/back.png" alt=""></a>
                     <div class="texto">
                         <p>POR FAVOR, INGRESE SUS DATOS</p>
                     </div>
