@@ -49,10 +49,10 @@
     </header>
 
     <main>
-        <div class="boxForm" style="margin-top:3.3rem;">
+        <div class="boxForm" style="margin-top:3.3rem;margin-bottom:3.3rem;">
             <form action="" method="post" class="formulario" style="height: auto;">
                 <div class="goback">
-                    <a href="index.php" title="Volver"><img src="img/LoginPage/back.png" alt=""></a>
+                    <a href="index.html" title="Volver"><img src="img/LoginPage/back.png" alt=""></a>
                     <div class="texto">
                         <p>POR FAVOR, INGRESE SUS DATOS</p>
                     </div>
