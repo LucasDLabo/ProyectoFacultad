@@ -21,7 +21,17 @@ Git push -u origin master -->
                     <ul>
                         <li><a href="#bodyinfo">¿QUÉ ES ALBUMPICKER?</a></li>
                         <li><a href="Catalogo.php">CATALOGO</a></li>
-                        <li><a href="LoginPage.php">INICIAR SESIÓN</a></li>
+                        <?php
+                        include("php/conexion.php");
+                        session_start();
+                        // Si existe una sesion entonces...
+                        if(isset($_SESSION['usuario'])){
+                            echo '<li><a href="Profile.php">Mi perfil</a></li>';
+                        }else{ 
+                        // Si no existe...
+                            echo '<li><a href="LoginPage.php">Iniciar Sesión</a></li>';
+                        }
+                        ?>
                     </ul>
                 </div>
             </div>
@@ -62,7 +72,17 @@ Git push -u origin master -->
         <section class="boxRegister">
             <div class="registerText">
                 <p>CREA TU CUENTA <br> Y GUARDA TUS <mark class="highlight2">ÁLBUMES ELEGIDOS!</mark></p>
-                <a href="RegisterPage.php">REGISTRATE AHORA</a>
+                <?php
+                        include("php/conexion.php");
+                        // Si existe una sesion entonces...
+                        if(isset($_SESSION['usuario'])){
+                            echo '<a href="Catalogo.php">REGISTRATE AHORA</a>';
+                        }else{ 
+                        // Si no existe...
+                            echo '<a href="RegisterPage.php">REGISTRATE AHORA</a>';
+                        }
+                        ?>
+                <!-- <a href="RegisterPage.php">REGISTRATE AHORA</a> -->
             </div>
             <div class="registerImg">
                 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-15 6 15 15"><g transform="rotate(30 12 12)"><g fill="none"><circle cx="6" cy="18" r="3" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><circle cx="18" cy="17" r="3" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path fill="currentColor" d="M21 3L9 6v4l12-3V3z"/><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 18v-8m12 7V7M9 10V6l12-3v4M9 10l12-3"/></g></g></svg>

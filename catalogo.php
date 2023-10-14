@@ -14,7 +14,18 @@
                 <div class="rutas">
                     <ul>
                         <li><a href="" style="background-color: #015A76;">CATALOGO</a></li>
-                        <li><a href="LoginPage.php">Iniciar Sesión</a></li>
+                        <?php
+                        include("php/conexion.php");
+                        session_start();
+                        // Si existe una sesion entonces...
+                        if(isset($_SESSION['usuario'])){
+                            echo '<li><a href="Profile.php">Mi perfil</a></li>';
+                        }else{ 
+                        // Si no existe...
+                            echo '<li><a href="LoginPage.php">Iniciar Sesión</a></li>';
+                        }
+                        ?>
+                        <!-- <li><a href="LoginPage.php">Iniciar Sesión</a></li> -->
                     </ul>
                 </div>
             </div>

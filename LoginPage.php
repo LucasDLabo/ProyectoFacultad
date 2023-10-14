@@ -9,8 +9,7 @@
 <body>
     <?php
     
-    include("php/conexion.php");
-
+    include("php/conexion.php");         
 
     if(isset($_POST['login'])){
         $username = mysqli_real_escape_string($conexion, $_POST['name']);
@@ -19,8 +18,8 @@
 
         $validar_login = mysqli_query($conexion, "SELECT * FROM usuarios WHERE username='$username' and password='$password'");
         if(mysqli_num_rows($validar_login)>0){
-            // $_SESSION['usuario'] = $username;
-            // echo ("Entraste");
+            session_start();
+            $_SESSION['usuario'] = $username;
             header("location: Catalogo.php");
         }else{
             echo '<script>
@@ -44,7 +43,7 @@
         <div class="boxForm">
             <form action="" method="post" class="formulario">
                 <div class="goback">
-                    <a href="index.html" title="Volver"><img src="img/LoginPage/back.png" alt=""></a>
+                    <a href="index.php" title="Volver"><img src="img/LoginPage/back.png" alt=""></a>
                     <div class="texto">
                         <p>POR FAVOR, INGRESE SUS DATOS</p>
                     </div>

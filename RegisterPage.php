@@ -1,10 +1,3 @@
-<!-- Commit "elimine index.HTML de la branch 
-    + 
-    Cambie el archivo RegisterPage.HTML por .PHP
-    +
-    Se creo una nueva carpeta php que contiene la conexion a la base
-    +
-    Se creo la función de registrarse en la página" -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -52,7 +45,7 @@
         <div class="boxForm" style="margin-top:3.3rem;margin-bottom:3.3rem;">
             <form action="" method="post" class="formulario" style="height: auto;">
                 <div class="goback">
-                    <a href="index.html" title="Volver"><img src="img/LoginPage/back.png" alt=""></a>
+                    <a href="index.php" title="Volver"><img src="img/LoginPage/back.png" alt=""></a>
                     <div class="texto">
                         <p>POR FAVOR, INGRESE SUS DATOS</p>
                     </div>
