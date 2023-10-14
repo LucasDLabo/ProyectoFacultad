@@ -52,7 +52,7 @@ html{
     height: 100%;
 }
 .rutas ul li a:hover{
-    background-color: black;
+    background-color: rgb(34, 34, 34);
     transition: .1s;
 }
 
@@ -79,8 +79,8 @@ html{
 
 .boxAlbums{
     background-color: #D9D9D9;
-    margin-left: 1.875rem;
-    margin-right: 1.875rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     border-radius: 1.25rem;
     box-shadow:0.938rem 0.938rem 1.25rem -0.063rem rgba(0,0,0,1);
     display: grid;
