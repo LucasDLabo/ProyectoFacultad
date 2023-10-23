@@ -98,14 +98,7 @@ function pagina1(){
     infopage2.style.display = "none";
     infopage3.style.display = "none";
     document.body.scrollTop = document.documentElement.scrollTop = 0;
-    // page1.style.opacity = ".5"
-    // page1.style.transform = "scale(0.8)"
-    // page2.style.backgroundColor = "wheat"
-    // page2.style.transform = "scale(1)"
-    // page2.style.opacity = "1"
-    // page3.style.backgroundColor = "wheat"
-    // page3.style.transform = "scale(1)"
-    // page3.style.opacity = "1"
+
 }
 function pagina2(){
     actual=2

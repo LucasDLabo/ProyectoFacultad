@@ -94,7 +94,7 @@
                     </div>
                     <hr>
 
-                    <button>Me gusta</button>
+                    <button >Me gusta</button>
                 </div>
 
                 <!-- Tarjeta Individual  -->
@@ -571,10 +571,10 @@
                     <hr>
                     <div class="albumLinks">
                         <p>Escucha este album tambien en:</p>
-                        <a href="" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
-                        <a href="" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
-                        <a href="" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
-                        <a href="" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_nHS7pTZEXu_CWsCZ4dg50tGAuQ9ssNBMs&si=kXXkHZ2aQwE54Vb2" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
+                        <a href="https://music.apple.com/us/album/raro/1573662612" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
+                        <a href="https://deezer.page.link/7SoZ7sgc1dSNsUNj8" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
+                        <a href="https://tidal.com/browse/album/188843474" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
                     </div>
                     <hr>
 
@@ -616,10 +616,10 @@
                     <hr>
                     <div class="albumLinks">
                         <p>Escucha este album tambien en:</p>
-                        <a href="" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
-                        <a href="" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
-                        <a href="" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
-                        <a href="" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_mUE6ZcI3zo5E8vvbpLhBQIp4NWK-GGjcY&si=Ay-H9SLzkd8eK7qL" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
+                        <a href="https://music.apple.com/us/album/porfiado/523330948" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
+                        <a href="https://deezer.page.link/kSQnCTeWJT31z7ND8" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
+                        <a href="https://tidal.com/browse/album/15274100" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
                     </div>
                     <hr>
 
@@ -661,10 +661,10 @@
                     <hr>
                     <div class="albumLinks">
                         <p>Escucha este album tambien en:</p>
-                        <a href="" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
-                        <a href="" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
-                        <a href="" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
-                        <a href="" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_ms235_b1K3CCqXWrmNB5H7mDiuJxnMNBk&si=_z54nLT9j06-C_NK" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
+                        <a href="https://music.apple.com/us/album/jueves/1473168002" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
+                        <a href="https://deezer.page.link/X28ukxArSSx1RN1j8" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
+                        <a href="https://tidal.com/browse/album/113754936" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
                     </div>
                     <hr>
 
@@ -902,13 +902,13 @@
                 <hr>
                 <div class="albumLinks">
                     <p>Escucha este album tambien en:</p>
-                    <a href="https://music.youtube.com/playlist?list=OLAK5uy_nj9CV9skUd9GHTY2krCscnSQ0RdWgqDSI&si=K8Yhf78-lynLkttr" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
-                    <a href="https://music.apple.com/us/album/destinologia/1600329146" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
-                    <a href="https://deezer.page.link/6p8Utgz39Q16omKq5" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
-                    <a href="https://tidal.com/browse/album/209155763" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
+                    <a href="https://music.youtube.com/playlist?list=OLAK5uy_mXoi-FuQb9Gw7Mguhdx5F4jltT0L1qOCw&feature=share" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
+                    <a href="https://music.apple.com/ar/album/the-dark-side-of-the-moon-50th-anniversary-remastered/1665303755" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
+                    <a href="https://deezer.page.link/64evTZwr96fsRdht8" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
+                    <a href="https://tidal.com/browse/album/55391786" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
                 </div>
                 <hr>
-                <button>Like</button>
+                <button>Me gusta</button>
             </div>
 
                 <!-- #### 2da Tarjeta ####  -->
@@ -945,13 +945,13 @@
                 <hr>
                 <div class="albumLinks">
                     <p>Escucha este album tambien en:</p>
-                    <a href="https://music.youtube.com/playlist?list=OLAK5uy_m-t27BHBznS93UM1j1RVMeeSR4rO3ieAs&si=eWqABP5hYnuqSnho" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
-                    <a href="https://music.apple.com/us/album/obsesionario/1600323788" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
-                    <a href="https://deezer.page.link/JV6f4wn1CuqBWcTPA" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
-                    <a href="https://tidal.com/browse/album/209155814" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
+                    <a href="https://music.youtube.com/playlist?list=OLAK5uy_mA5AnlP2opezyhaMV9jZJ8A7iXUsj8Vq0&feature=share" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
+                    <a href="https://music.apple.com/ar/album/the-wall/1065975633" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
+                    <a href="https://deezer.page.link/VddpgajMBEFFnLSV9" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
+                    <a href="https://tidal.com/browse/album/55391447" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
                 </div>
                 <hr>
-                <button>Like</button>
+                <button>Me gusta</button>
             </div>
         </div>
         </section>
@@ -1248,7 +1248,22 @@
             <button id="p3">3</button>
             <button id="next">></button>
         </div>
-        
+        <footer class="boxSpam">
+            <p>CREADO POR: <mark class="highlight2"><a href="https://github.com/LucasDLabo" target="_blank">LUCASDLABO</a></mark> - SIGUEME EN: <mark class="highlight2" ><a href="https://open.spotify.com/user/thelucksplaying?si=b8ae76c284314dd2" target="_blank">SPOTIFY</a></mark> 
+                <br>
+                LOS DATOS Y AUDIOS PROVIENEN DE SPOTIFY
+            </p>
+            <p>
+                Explora las otras plataformas como: <br>
+                <mark class="highlight2"><a href="https://tidal.com/" target="_blank">Tidal</a> </mark>
+                /
+                <mark class="highlight2"><a href="https://music.apple.com/us/listen-now?l=en-US" target="_blank">Apple Music</a>  </mark>
+                /
+                <mark class="highlight2"><a href="https://www.deezer.com/es/channels/explore/" target="_blank">DeeZEr </a> </mark>
+                /
+                <mark class="highlight2"><a href="https://music.youtube.com/" target="_blank">Youtube Music</a> </mark>
+            </p>
+        </footer>
     </main>
     <script type="text/javascript" src="code.js"></script>
 </body>

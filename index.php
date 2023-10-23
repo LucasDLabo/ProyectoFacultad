@@ -91,19 +91,19 @@ Git push -u origin master -->
 
 
         <footer class="boxSpam">
-            <p>CREADO POR: <mark class="highlight2"><a href="https://www.instagram.com/lucas_del_labo/" target="_blank">@LUCAS.DELLABO</a></mark> - SIGUEME EN: <mark class="highlight2" ><a href="https://open.spotify.com/user/thelucksplaying?si=b8ae76c284314dd2" target="_blank">SPOTIFY</a></mark> 
+            <p>CREADO POR: <mark class="highlight2"><a href="https://github.com/LucasDLabo" target="_blank">LUCASDLABO</a></mark> - SIGUEME EN: <mark class="highlight2" ><a href="https://open.spotify.com/user/thelucksplaying?si=b8ae76c284314dd2" target="_blank">SPOTIFY</a></mark> 
                 <br>
                 LOS DATOS Y AUDIOS PROVIENEN DE SPOTIFY
             </p>
             <p>
                 Explora las otras plataformas como: <br>
-                <mark class="highlight2">Tidal </mark>
+                <mark class="highlight2"><a href="https://tidal.com/" target="_blank">Tidal</a> </mark>
                 /
-                <mark class="highlight2">Apple Music </mark>
+                <mark class="highlight2"><a href="https://music.apple.com/us/listen-now?l=en-US" target="_blank">Apple Music</a>  </mark>
                 /
-                <mark class="highlight2">DeeZEr </mark>
+                <mark class="highlight2"><a href="https://www.deezer.com/es/channels/explore/" target="_blank">DeeZEr </a> </mark>
                 /
-                <mark class="highlight2">Youtube Music</mark>
+                <mark class="highlight2"><a href="https://music.youtube.com/" target="_blank">Youtube Music</a> </mark>
             </p>
         </footer>
     </main>
