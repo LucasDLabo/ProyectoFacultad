@@ -538,7 +538,7 @@
         <div class="boxAlbums" style="background-color: none; color:none; grid-template-columns: 1fr 1fr 1fr ;">
             <h3 class="boxAlbumsTitles" style="background-color: #00A9FF;">Cuarteto de Nos</h3>
             <!-- #### 1er Tarjeta ####  -->
-            <div class="tarjeta" style="background-color: #00A9FF; width:270px; justify-self: center; ">
+            <div class="tarjeta" style="background-color: #00A9FF; width:16rem; justify-self: center; ">
                 <!-- Portada -->
                 <div class="tarjetaPortada" >
                     <img style="border-color:white;" src="img/Catalogo/artistas/cuartetodenos/raro.jpeg" alt="" onclick="abrirImagen(this.src)">
@@ -557,7 +557,7 @@
                 </div>
             </div>
                 <!-- Tarjeta con Links y Like -->
-                <div class="tarjetaLike" style="grid-column-start: 1; grid-row-start: 3; background-color:#00A9FF; width:290px; justify-self: center;">
+                <div class="tarjetaLike" style="grid-column-start: 1; grid-row-start: 3; background-color:#00A9FF; width:17.5rem; justify-self: center;">
                     <iframe 
                         style="border-radius:12px " 
                         src="https://open.spotify.com/embed/track/3tUk2PzTp8KCIU4cxstJq1?utm_source=generator&theme=0" 
@@ -582,7 +582,7 @@
                 </div>
 
                 <!-- #### 2da Tarjeta ####  -->
-                <div class="tarjeta" style="background-color: #00A9FF;  width:270px; justify-self: center;">
+                <div class="tarjeta" style="background-color: #00A9FF;  width:16rem; justify-self: center;">
                     <!-- Portada -->
                     <div class="tarjetaPortada" >
                         <img style="border-color:white;" src="img/Catalogo/artistas/cuartetodenos/porfiado.jpeg" alt="" onclick="abrirImagen(this.src)">
@@ -602,7 +602,7 @@
                     </div>
                 </div>
                 <!-- Tarjeta con Links y Like -->
-                <div class="tarjetaLike" style="grid-column-start: 2; grid-row-start: 3; background-color:#00A9FF; width:290px; justify-self: center;">
+                <div class="tarjetaLike" style="grid-column-start: 2; grid-row-start: 3; background-color:#00A9FF; width:17.5rem; justify-self: center;">
                     <iframe 
                         style="border-radius:12px " 
                         src="https://open.spotify.com/embed/track/7xB3hSztVbX6xFvQqEGKud?utm_source=generator&theme=0" 
@@ -627,7 +627,7 @@
                 </div>
 
                 <!-- #### 3er Tarjeta ####  -->
-                <div class="tarjeta" style="background-color: #00A9FF;  width:270px; justify-self: center;">
+                <div class="tarjeta" style="background-color: #00A9FF;  width:16rem; justify-self: center;">
                     <!-- Portada -->
                     <div class="tarjetaPortada" >
                         <img style="border-color:white;" src="img/Catalogo/artistas/cuartetodenos/jueves.jpeg" alt="" onclick="abrirImagen(this.src)">
@@ -647,7 +647,7 @@
                     </div>
                 </div>
                 <!-- Tarjeta con Links y Like -->
-                <div class="tarjetaLike" style="grid-column-start: 3; grid-row-start: 3; background-color:#00A9FF; width:290px; justify-self: center;">
+                <div class="tarjetaLike" style="grid-column-start: 3; grid-row-start: 3; background-color:#00A9FF; width:17.5rem; justify-self: center;">
                     <iframe 
                         style="border-radius:12px " 
                         src="https://open.spotify.com/embed/track/40va05AmHQ9G5cVVe1jxAc?utm_source=generator&theme=0" 
@@ -858,11 +858,239 @@
                 </div>
         </div>
 
-        
+        <div class="separador">
+            <hr>
+            <div></div>
+            <hr>
+        </div>
+
+        <!-- ######### Pink Floyd ######### -->
+        <div class="boxAlbums" style="background-color: none; color:none;">
+            <h3 class="boxAlbumsTitles" style="background-color: black;">Pink FLoyd</h3>
+            <!-- #### 1er Tarjeta ####  -->
+            <div class="tarjeta" style="background-color: black; grid-column-start:2;">
+                <!-- Portada -->
+                <div class="tarjetaPortada" >
+                    <img style="border-color:rgb(200, 200, 200);" src="img/Catalogo/artistas/pinkfloyd/darkmoon.jpeg" alt="" onclick="abrirImagen(this.src)">
+                    <h4>The Dark Side of the Moon</h4>
+                    <button style="color:none;" >▼</button>
+                    <hr>
+                    <!-- Descripción -->
+                    <div class="tarjetaDescrip">
+                        <p>
+                        Es el octavo álbum de estudio del grupo musical británico de rock progresivo Pink Floyd.
+                        Salió a la venta el 1 de marzo de 1973 en los Estados Unidos y el 23 de marzo del mismo año en el Reino Unido.
+                        </p>
+                        <p>
+                        Se estima que el álbum ha vendido más de 50 millones de copias a nivel mundial.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Tarjeta con Links y Like -->
+            <div class="tarjetaLike" style="grid-column-start: 2; grid-row-start: 3; background-color:black;">
+                <iframe 
+                    style="border-radius:12px " 
+                    src="https://open.spotify.com/embed/track/0vFOzaXqZHahrZp6enQwQb?utm_source=generator&theme=0" 
+                    width="100%" 
+                    height="160" 
+                    frameBorder="0" 
+                    allowfullscreen="" 
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                    loading="lazy">
+                </iframe>
+                <hr>
+                <div class="albumLinks">
+                    <p>Escucha este album tambien en:</p>
+                    <a href="https://music.youtube.com/playlist?list=OLAK5uy_nj9CV9skUd9GHTY2krCscnSQ0RdWgqDSI&si=K8Yhf78-lynLkttr" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
+                    <a href="https://music.apple.com/us/album/destinologia/1600329146" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
+                    <a href="https://deezer.page.link/6p8Utgz39Q16omKq5" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
+                    <a href="https://tidal.com/browse/album/209155763" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
+                </div>
+                <hr>
+                <button>Like</button>
+            </div>
+
+                <!-- #### 2da Tarjeta ####  -->
+            <div class="tarjeta" style="background-color: black;">
+                <!-- Portada -->
+                <div class="tarjetaPortada" >
+                    <img style="border-color:rgb(200, 200, 200);" src="img/Catalogo/artistas/pinkfloyd/thewall.jpg" alt="" onclick="abrirImagen(this.src)">
+                    <h4>The Wall</h4>
+                    <button style="color:none;">▼</button>
+                    <hr>
+                    <!-- Descripción -->
+                    <div class="tarjetaDescrip">
+                        <p>
+                        Es el undécimo álbum de estudio del grupo musical británica de rock progresivo Pink Floyd y el segundo doble, se lanzó al mercado en noviembre de 1979 en el Reino Unido y en enero de 1980 en Estados Unidos.
+                        </p>
+                        <p>
+                        Se grabó entre abril y noviembre bajo la dirección del productor Bob Ezrin y de los miembros de Pink Floyd David Gilmour y Roger Waters.
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Tarjeta con Links y Like -->
+            <div class="tarjetaLike" style="grid-column-start: 3; grid-row-start: 3; background-color:black;">
+                <iframe 
+                    style="border-radius:12px "
+                    src="https://open.spotify.com/embed/track/4gMgiXfqyzZLMhsksGmbQV?utm_source=generator&theme=0" 
+                    width="100%" 
+                    height="160" 
+                    frameBorder="0" 
+                    allowfullscreen="" 
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                    loading="lazy">
+                </iframe>
+                <hr>
+                <div class="albumLinks">
+                    <p>Escucha este album tambien en:</p>
+                    <a href="https://music.youtube.com/playlist?list=OLAK5uy_m-t27BHBznS93UM1j1RVMeeSR4rO3ieAs&si=eWqABP5hYnuqSnho" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
+                    <a href="https://music.apple.com/us/album/obsesionario/1600323788" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
+                    <a href="https://deezer.page.link/JV6f4wn1CuqBWcTPA" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
+                    <a href="https://tidal.com/browse/album/209155814" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
+                </div>
+                <hr>
+                <button>Like</button>
+            </div>
+        </div>
         </section>
         <!-- Toda la pagina 3 -->
         <section id="contenido-page3" style="display: none;">
-            <p>pagina3</p>
+            <!-- ######### Kali Uchis ######### -->
+        <div class="boxAlbums" style="background-color: none; color:none; grid-template-columns: 1fr 1fr 1fr ;">
+            <h3 class="boxAlbumsTitles" style="background-color: #b80934;">Kali Uchis</h3>
+            <!-- #### 1er Tarjeta ####  -->
+            <div class="tarjeta" style="background-color: #b80934; width:16rem; justify-self: center; ">
+                <!-- Portada -->
+                <div class="tarjetaPortada" >
+                    <img style="border-color:pink;" src="img/Catalogo/artistas/kaliuchis/isolation.jpeg" alt="" onclick="abrirImagen(this.src)">
+                    <h4>Isolation</h4>
+                    <button style="color:none;" >▼</button>
+                    <hr>
+                    <!-- Descripción -->
+                    <div class="tarjetaDescrip">
+                        <p>
+                        Isolation es el primer álbum de estudio de la cantante colombo-estadounidense. Su lanzamiento tuvo lugar el 6 de abril de 2018 a través de los sellos Rinse FM, Virgin EMI Records y Universal Music Group.
+                        </p>
+                        <p>
+                        Después de lanzar su extended play Por Vida (2015), que recibió elogios de la crítica profesional, Uchis continuó produciendo contenido para su primer lanzamiento a largo plazo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+                <!-- Tarjeta con Links y Like -->
+                <div class="tarjetaLike" style="grid-column-start: 1; grid-row-start: 3; background-color:#b80934; width:17.5rem; justify-self: center;">
+                    <iframe 
+                        style="border-radius:12px " 
+                        src="https://open.spotify.com/embed/track/1otG6j1WHNvl9WgXLWkHTo?utm_source=generator&theme=0" 
+                        width="100%" 
+                        height="160" 
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">
+                    </iframe>
+                    <hr>
+                    <div class="albumLinks">
+                        <p>Escucha este album tambien en:</p>
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_lVVWmaupv3CYEhdzu4tQdOZWhJCaP92pc&si=oikGPLEc90cb0_E5" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
+                        <a href="https://music.apple.com/us/album/isolation/1358285249" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
+                        <a href="https://deezer.page.link/DCNEgiVg1jo6P9ceA" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
+                        <a href="https://tidal.com/browse/album/86643504" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
+                    </div>
+                    <hr>
+
+                    <button>Like</button>
+                </div>
+
+                <!-- #### 2da Tarjeta ####  -->
+                <div class="tarjeta" style="background-color: #b80934;  width:16rem; justify-self: center;">
+                    <!-- Portada -->
+                    <div class="tarjetaPortada" >
+                        <img style="border-color:pink;" src="img/Catalogo/artistas/kaliuchis/sinmiedo.jpeg" alt="" onclick="abrirImagen(this.src)">
+                        <h4>Sin miedo (del amor y otros demonios)</h4>
+                        <button style="color:none;" >▼</button>
+                        <hr>
+                        <!-- Descripción -->
+                        <div class="tarjetaDescrip">
+                            <p>
+                            Sin miedo (del amor y otros demonios) es el segundo álbum de estudio de la cantante Kali Uchis. Fue publicado el 18 de noviembre de 2020 a través de los sellos discográficos Interscope Records y EMI Records, siendo su primer álbum predominante en español.                            </p>
+                            <p>
+                            El álbum contiene una variedad de sonidos, desde R&B a mezclas con reguetón y trap latino, apoyado por las colaboraciones de PartyNextDoor, Rico Nasty, Jowell & Randy y Jhay Cortez.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta con Links y Like -->
+                <div class="tarjetaLike" style="grid-column-start: 2; grid-row-start: 3; background-color:#b80934; width:17.5rem; justify-self: center;">
+                    <iframe 
+                        style="border-radius:12px " 
+                        src="https://open.spotify.com/embed/track/6tDDoYIxWvMLTdKpjFkc1B?utm_source=generator&theme=0" 
+                        width="100%" 
+                        height="160" 
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">
+                    </iframe>
+                    <hr>
+                    <div class="albumLinks">
+                        <p>Escucha este album tambien en:</p>
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_kWdYaYAYZmnhs-5Gpcw6gYqHoWMY952GY&si=3QQncyroDTpV4R0L" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
+                        <a href="https://music.apple.com/us/album/sin-miedo-del-amor-y-otros-demonios/1541730865" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
+                        <a href="https://deezer.page.link/cc43XeWAd9FL8LyV6" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
+                        <a href="https://tidal.com/browse/album/163852137" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
+                    </div>
+                    <hr>
+
+                    <button>Like</button>
+                </div>
+
+                <!-- #### 3er Tarjeta ####  -->
+                <div class="tarjeta" style="background-color: #b80934;  width:16rem; justify-self: center;">
+                    <!-- Portada -->
+                    <div class="tarjetaPortada" >
+                        <img style="border-color:pink;" src="img/Catalogo/artistas/kaliuchis/redmoon.jpeg" alt="" onclick="abrirImagen(this.src)">
+                        <h4>Red Moon in Venus</h4>
+                        <button style="color:none;" >▼</button>
+                        <hr>
+                        <!-- Descripción -->
+                        <div class="tarjetaDescrip">
+                            <p>
+                            Red Moon in Venus es el tercer álbum de estudio de la cantante colombiana-estadounidense Kali Uchis, publicado el 3 de marzo de 2023 a través de los sellos discográficos EMI y Geffen.                            </p>
+                            <p>
+                            El material debutó en el top 10 de las listas Billboard 200 y Top R&B/Hip-Hop Albums de la revista Billboard, registrando ventas equivalentes sobre 55 000 copias.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta con Links y Like -->
+                <div class="tarjetaLike" style="grid-column-start: 3; grid-row-start: 3; background-color:#b80934; width:17.5rem; justify-self: center;">
+                    <iframe 
+                        style="border-radius:12px " 
+                        src="https://open.spotify.com/embed/track/0JmnkIqdlnUzPaf8sqBRs3?utm_source=generator&theme=0" 
+                        width="100%" 
+                        height="160" 
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">
+                    </iframe>
+                    <hr>
+                    <div class="albumLinks">
+                        <p>Escucha este album tambien en:</p>
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_nN64cjl_bbUwCqOq8WvrDTNu8TBSwFpYo&si=2XhZyjWmKh_0XlnN" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
+                        <a href="https://music.apple.com/us/album/red-moon-in-venus/1665311474" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
+                        <a href="https://deezer.page.link/ASXkfeGe4dpT1dsBA" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
+                        <a href="https://tidal.com/browse/album/278852722" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
+                    </div>
+                    <hr>
+
+                    <button>Like</button>
+                </div>
+        </div>
         </section>
         
         <div class="boxPages">
