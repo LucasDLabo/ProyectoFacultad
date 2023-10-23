@@ -33,57 +33,69 @@ function scrollSuave(event) {
 }
 
 // Funcion cambiar de pestañas en catalogo
-let goback = document.getElementById("back");
-let gonext = document.getElementById("next");
-let page1 = document.getElementById("p1");
-let page2 = document.getElementById("p2");
-let page3 = document.getElementById("p3"); 
+// let goback = document.getElementById("back");
+// let gonext = document.getElementById("next");
+// let page1 = document.getElementById("p1");
+// let page2 = document.getElementById("p2");
+// let page3 = document.getElementById("p3"); 
+let goback = document.querySelectorAll("#back");
+let page1 = document.querySelectorAll("#p1");
+let page2 = document.querySelectorAll("#p2");
+let page3 = document.querySelectorAll("#p3");
+let gonext = document.querySelectorAll("#next");
+
 let infopage1 = document.getElementById("contenido-page1");
 let infopage2 = document.getElementById("contenido-page2");
 let infopage3 = document.getElementById("contenido-page3");
 let actual = 1
 
+page1.forEach(function(boton) {
+    boton.addEventListener("click", function() {
+        pagina1()
+    });
+});
+page2.forEach(function(boton) {
+    boton.addEventListener("click", function() {
+        pagina2()
+    });
+});
+page3.forEach(function(boton) {
+    boton.addEventListener("click", function() {
+        pagina3()
+    });
+});
 
-page1.addEventListener("click", function(){
-    console.log("clickeado1")
-    pagina1()
-    
+goback.forEach(function(boton){
+    boton.addEventListener("click", function(){
+        switch (actual){
+            case 1:
+                pagina3()
+                break;
+            case 2:
+                pagina1()
+                break;    
+            case 3:
+                pagina2()
+                break;
+        }
+    })
 })
-page2.addEventListener("click", function(){
-    console.log("clickeado2")
-    pagina2()
-})
-page3.addEventListener("click", function(){
-    console.log("clickeado3")
-    pagina3()
+gonext.forEach(function(boton){
+    boton.addEventListener("click", function(){
+        switch (actual){
+            case 1:
+                pagina2()
+                break;
+            case 2:
+                pagina3()
+                break;    
+            case 3:
+                pagina1()
+                break;
+        }
+    })
 })
 
-goback.addEventListener("click", function(){
-    switch (actual){
-        case 1:
-            pagina3()
-            break;
-        case 2:
-            pagina1()
-            break;    
-        case 3:
-            pagina2()
-            break;
-    }
-})
-gonext.addEventListener("click", function(){
-    switch (actual){
-        case 1:
-            pagina2()
-            break;
-        case 2:
-            pagina3()
-            break;    
-        case 3:
-            pagina1()
-            break;
-    }
-})
 
 function pagina1(){
     actual=1
