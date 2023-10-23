@@ -8,7 +8,6 @@
 </head>
 <body>
     <header>
-
         <nav>
             <div class="boxNav" style="background-color: black;">
                 <a href="index.php"><h1>AlbumPicker</h1></a>
@@ -33,6 +32,10 @@
     </header>
 
     <main>
+        <div class="FullImagen" id="ImagenCompleta">
+            <img src="img/album am.jpg" alt="" id="ImagenSeleccionada">
+            <div onclick="cerrarImagen()">X</div>
+        </div>
         <div class="boxPages">
             <button id="back"><</button>
             <button>1</button>
@@ -49,9 +52,9 @@
                 <div class="tarjeta" >
                     <!-- 1ra Seccion de la tarjeta -->
                     <div class="tarjetaPortada" >
-                        <img src="img/Catalogo/album am.jpg" alt="">
+                        <img src="img/Catalogo/album am.jpg" alt="" onclick="abrirImagen(this.src)">
                         <h4>AM</h4>
-                        <button>▼</button>
+                        <button >▼</button>
                         <hr>
                         <!-- Descripción de la tarjeta -->
                         <div class="tarjetaDescrip">
@@ -88,24 +91,20 @@
                     </div>
                     <hr>
 
-                    <form action="Like.php" method="post">
-                        <input type="text" name="album_id" value="1">
-                        <input type="submit" value="Me gusta">
-                    </form>
-                    <!-- <button>Like</button> -->
+                    <button>Like</button>
                 </div>
 
                 <!-- Tarjeta Individual (Favourite Worst Nightmare) -->
                 <div class="tarjeta" >
                     <!-- 1ra Seccion de la tarjeta -->
                     <div class="tarjetaPortada" >
-                        <img src="img/Catalogo/album fav.jpg" alt="">
+                        <img src="img/Catalogo/album fav.jpg" alt="" onclick="abrirImagen(this.src)">
                         <h4>Favourite Worst Nightmare</h4>
                         <button>▼</button>
                         <hr>
                         <!-- Descripción de la tarjeta -->
                         <div class="tarjetaDescrip">
-                            <p id="slide1">
+                            <p id="slide2">
                                 Es el segundo álbum de estudio de Arctic Monkeys. 
                                 Fue lanzado por primera vez en Japón el 18 de abril de 2007
                                 y grabado en Miloco Studios con productores como James Ford y Mike Crossey.
@@ -144,13 +143,13 @@
                 <div class="tarjeta" >
                     <!-- 1ra Seccion de la tarjeta -->
                     <div class="tarjetaPortada" >
-                        <img src="img/Catalogo/album tranq.jpg" alt="">
+                        <img src="img/Catalogo/album tranq.jpg" alt="" onclick="abrirImagen(this.src)">
                         <h4>Tranquility Base Hotel & Casino</h4>
                         <button>▼</button>
                         <hr>
                         <!-- Descripción de la tarjeta -->
                         <div class="tarjetaDescrip">
-                            <p id="slide1">
+                            <p id="slide3">
                                 Es el sexto álbum de estudio de la banda de rock inglesa Arctic Monkeys, 
                                 lanzado el 11 de mayo de 2018 por Domino Records.
                             </p>
@@ -191,13 +190,13 @@
                 <div class="tarjeta" >
                     <!-- 1ra Seccion de la tarjeta -->
                     <div class="tarjetaPortada" >
-                        <img src="img/Catalogo/album humbug.jpg" alt="">
+                        <img src="img/Catalogo/album humbug.jpg" alt="" onclick="abrirImagen(this.src)">
                         <h4>Humbug</h4>
                         <button>▼</button>
                         <hr>
                         <!-- Descripción de la tarjeta -->
                         <div class="tarjetaDescrip">
-                            <p id="slide1">
+                            <p id="slide4">
                                 Es el tercer álbum de estudio de la banda inglesa de indie rock Arctic Monkeys 
                                 lanzado el 19 de agosto de 2009 por Domino Records.
                             </p>
@@ -233,6 +232,15 @@
                 </div>
             </div>
         </section>
+        <!-- Toda la pagina 2 -->
+        <section class="contenido_page2">
+
+        </section>
+        <!-- Toda la pagina 3 -->
+        <section class="contenido_page3">
+
+        </section>
+        
         <div class="boxPages">
             <button id="back"><</button>
             <button>1</button>
@@ -243,4 +251,6 @@
         
     </main>
 </body>
+<script type="text/javascript" src="code.js"></script>
+
 </html>
