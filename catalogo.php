@@ -94,7 +94,7 @@
                     </div>
                     <hr>
 
-                    <button>Like</button>
+                    <button>Me gusta</button>
                 </div>
 
                 <!-- Tarjeta Individual  -->
@@ -139,7 +139,7 @@
                         <a href="https://tidal.com/browse/album/1550545" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidalbold.png" alt=""></a>
                     </div>
                     <hr>
-                    <button>Like</button>
+                    <button>Me gusta</button>
                 </div>
 
                 <!-- Tarjeta Individual -->
@@ -186,7 +186,7 @@
                         <a href="https://tidal.com/browse/album/154502" title="Tidal"><img src="img/Catalogo/Links/tidalbold.png" alt=""></a>
                     </div>
                     <hr>
-                    <button>Like</button>
+                    <button>Me gusta</button>
                 </div>
 
                 <!-- Tarjeta Individual -->
@@ -231,7 +231,7 @@
                         <a href="https://tidal.com/browse/album/20115556" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidalbold.png" alt=""></a>
                     </div>
                     <hr>
-                    <button>Like</button>
+                    <button>Me gusta</button>
                 </div>
             </div>
 
@@ -287,7 +287,7 @@
                     </div>
                     <hr>
 
-                    <button>Like</button>
+                    <button>Me gusta</button>
                 </div>
 
                 <!-- Tarjeta Individual (Favourite Worst Nightmare) -->
@@ -332,7 +332,7 @@
                         <a href="https://tidal.com/browse/album/14831202" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
                     </div>
                     <hr>
-                    <button>Like</button>
+                    <button>Me gusta</button>
                 </div>
 
                 <!-- Tarjeta Individual (Tranquility Base Hotel & Casino) -->
@@ -379,7 +379,7 @@
                         <a href="https://tidal.com/browse/album/88607399" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
                     </div>
                     <hr>
-                    <button>Like</button>
+                    <button>Me gusta</button>
                 </div>
 
                 <!-- Tarjeta Individual (Humbug) -->
@@ -424,7 +424,7 @@
                         <a href="https://tidal.com/browse/album/3745920" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
                     </div>
                     <hr>
-                    <button>Like</button>
+                    <button>Me gusta</button>
                 </div>
             </div>
 
@@ -482,7 +482,7 @@
                     </div>
                     <hr>
 
-                    <button>Like</button>
+                    <button>Me gusta</button>
                 </div>
 
                 <!-- #### 2da Tarjeta ####  -->
@@ -526,7 +526,7 @@
                         <a href="https://tidal.com/browse/album/209155814" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
                     </div>
                     <hr>
-                    <button>Like</button>
+                    <button>Me gusta</button>
                 </div>
 
             </div>
@@ -578,7 +578,7 @@
                     </div>
                     <hr>
 
-                    <button>Like</button>
+                    <button>Me gusta</button>
                 </div>
 
                 <!-- #### 2da Tarjeta ####  -->
@@ -623,7 +623,7 @@
                     </div>
                     <hr>
 
-                    <button>Like</button>
+                    <button>Me gusta</button>
                 </div>
 
                 <!-- #### 3er Tarjeta ####  -->
@@ -668,7 +668,7 @@
                     </div>
                     <hr>
 
-                    <button>Like</button>
+                    <button>Me gusta</button>
                 </div>
         </div>
 
@@ -722,7 +722,7 @@
                         <a href="" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
                     </div>
                     <hr>
-                    <button>Like</button>
+                    <button>Me gusta</button>
                 </div>
 
                 <!-- #### 2da Tarjeta ####  -->
@@ -766,7 +766,7 @@
                         <a href="" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
                     </div>
                     <hr>
-                    <button>Like</button>
+                    <button>Me gusta</button>
                 </div>
 
                 <!-- #### 3er Tarjeta ####  -->
@@ -810,7 +810,7 @@
                         <a href="" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
                     </div>
                     <hr>
-                    <button>Like</button>
+                    <button>Me gusta</button>
                 </div>
 
                 <!-- #### 4ta Tarjeta ####  -->
@@ -854,7 +854,7 @@
                         <a href="" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
                     </div>
                     <hr>
-                    <button>Like</button>
+                    <button>Me gusta</button>
                 </div>
         </div>
 
@@ -957,7 +957,8 @@
         </section>
         <!-- Toda la pagina 3 -->
         <section id="contenido-page3" style="display: none;">
-            <!-- ######### Kali Uchis ######### -->
+
+        <!-- ######### Kali Uchis ######### -->
         <div class="boxAlbums" style="background-color: none; color:none; grid-template-columns: 1fr 1fr 1fr ;">
             <h3 class="boxAlbumsTitles" style="background-color: #b80934;">Kali Uchis</h3>
             <!-- #### 1er Tarjeta ####  -->
@@ -1001,7 +1002,7 @@
                     </div>
                     <hr>
 
-                    <button>Like</button>
+                    <button>Me gusta</button>
                 </div>
 
                 <!-- #### 2da Tarjeta ####  -->
@@ -1044,7 +1045,7 @@
                     </div>
                     <hr>
 
-                    <button>Like</button>
+                    <button>Me gusta</button>
                 </div>
 
                 <!-- #### 3er Tarjeta ####  -->
@@ -1088,9 +1089,156 @@
                     </div>
                     <hr>
 
-                    <button>Like</button>
+                    <button>Me gusta</button>
                 </div>
         </div>
+
+        <div class="separador">
+            <hr>
+            <div></div>
+            <hr>
+        </div>
+
+        <!-- ######### Travis Scott ######### -->
+        <div class="boxAlbums" style="background-color: black; color:black; grid-template-columns: 1fr 1fr 1fr ;">
+            <h3 class="boxAlbumsTitles" style="background-color: white;">Travis Scott</h3>
+            <!-- #### 1er Tarjeta ####  -->
+            <div class="tarjeta" style="background-color: white; width:16rem; justify-self: center; ">
+                <!-- Portada -->
+                <div class="tarjetaPortada" >
+                    <img style="border-color:#CD1818;" src="img/Catalogo/artistas/travisscott/birds.jpeg" alt="" onclick="abrirImagen(this.src)">
+                    <h4>Birds In The Trap Sing McKnight</h4>
+                    <button style="color:none;" >▼</button>
+                    <hr style="border: solid 0.063rem black;">
+                    <!-- Descripción -->
+                    <div class="tarjetaDescrip">
+                        <p>
+                        es el segundo álbum de estudio del rapero estadounidense Travis Scott. Fue lanzado el 2 de septiembre de 2016 a través de Grand Hustle Records y distribuido por Epic Records.
+                        </p>
+                        <p>
+                        Se estrenó exclusivamente a través del programa de radio Wav Radio de Travis Scott y Chase B en Beats 1 y Apple Music.
+                        </p>
+                    </div>
+                </div>
+            </div>
+                <!-- Tarjeta con Links y Like -->
+                <div class="tarjetaLike" style="grid-column-start: 1; grid-row-start: 3; background-color:white; width:17.5rem; justify-self: center;">
+                    <iframe 
+                        style="border-radius:12px " 
+                        src="https://open.spotify.com/embed/track/6gBFPUFcJLzWGx4lenP6h2?utm_source=generator&theme=0" 
+                        width="100%" 
+                        height="160" 
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">
+                    </iframe>
+                    <hr>
+                    <div class="albumLinks">
+                        <p>Escucha este album tambien en:</p>
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_lVVWmaupv3CYEhdzu4tQdOZWhJCaP92pc&si=oikGPLEc90cb0_E5" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusicbold.png" alt=""></a>
+                        <a href="https://music.apple.com/us/album/isolation/1358285249" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusicbold.png" alt=""></a>
+                        <a href="https://deezer.page.link/DCNEgiVg1jo6P9ceA" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerbold.png" alt=""></a>
+                        <a href="https://tidal.com/browse/album/86643504" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidalbold.png" alt=""></a>
+                    </div>
+                    <hr>
+
+                    <button>Me gusta</button>
+                </div>
+
+                <!-- #### 2da Tarjeta ####  -->
+                <div class="tarjeta" style="background-color: white;  width:16rem; justify-self: center;">
+                    <!-- Portada -->
+                    <div class="tarjetaPortada" >
+                        <img style="border-color:#CD1818;" src="img/Catalogo/artistas/travisscott/astroworld.jpeg" alt="" onclick="abrirImagen(this.src)">
+                        <h4>ASTROWORLD</h4>
+                        <button style="color:none;" >▼</button>
+                        <hr style="border: solid 0.063rem black;">
+                        <!-- Descripción -->
+                        <div class="tarjetaDescrip">
+                            <p>
+                            Astroworld es el tercer álbum de estudio del rapero estadounidense Travis Scott. El disco fue lanzado el 3 de agosto de 2018 a través de Cactus Jack Records y Grand Hustle Records, y distribuido por Epic Records.
+                            </p>
+                            <p>
+                            El álbum cuenta como artistas invitados a The Weeknd, Drake, 21 Savage,, Gunna, Quavo, Takeoff, Juice Wrld, Don Toliver, entre otros.
+                            </p>
+                            <p>
+                            El título del álbum lleva el nombre del desaparecido parque temático Six Flags AstroWorld, que estaba ubicado en Houston, Texas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta con Links y Like -->
+                <div class="tarjetaLike" style="grid-column-start: 2; grid-row-start: 3; background-color:white; width:17.5rem; justify-self: center;">
+                    <iframe 
+                        style="border-radius:12px " 
+                        src="https://open.spotify.com/embed/track/11kDth1aKUEUMq9r1pqyds?utm_source=generator&theme=0" 
+                        width="100%" 
+                        height="160" 
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">
+                    </iframe>
+                    <hr style="border: solid 0.063rem black;">
+                    <div class="albumLinks">
+                        <p>Escucha este album tambien en:</p>
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_kWdYaYAYZmnhs-5Gpcw6gYqHoWMY952GY&si=3QQncyroDTpV4R0L" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusicbold.png" alt=""></a>
+                        <a href="https://music.apple.com/us/album/sin-miedo-del-amor-y-otros-demonios/1541730865" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusicbold.png" alt=""></a>
+                        <a href="https://deezer.page.link/cc43XeWAd9FL8LyV6" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerbold.png" alt=""></a>
+                        <a href="https://tidal.com/browse/album/163852137" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidalbold.png" alt=""></a>
+                    </div>
+                    <hr>
+
+                    <button>Me gusta</button>
+                </div>
+
+                <!-- #### 3er Tarjeta ####  -->
+                <div class="tarjeta" style="background-color: white;  width:16rem; justify-self: center;">
+                    <!-- Portada -->
+                    <div class="tarjetaPortada" >
+                        <img style="border-color:#CD1818;" src="img/Catalogo/artistas/travisscott/utopia.jpeg" alt="" onclick="abrirImagen(this.src)">
+                        <h4>UTOPIA</h4>
+                        <button style="color:none;" >▼</button>
+                        <hr style="border: solid 0.063rem black;">
+                        <!-- Descripción -->
+                        <div class="tarjetaDescrip">
+                            <p>
+                            UTOPIA es el cuarto álbum de estudio del rapero estadounidense Travis Scott. Fue lanzado a través de Cactus Jack Records y Epic Records el 28 de julio de 2023.
+                            </p>
+                            <p>
+                            UTOPIA recibió críticas generalmente positivas de los críticos musicales y debutó en el número uno en la lista Billboard 200, en la que obtuvo 496.000 unidades equivalentes a álbumes, de las cuales 252.000 unidades fueron ventas de álbumes puros.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta con Links y Like -->
+                <div class="tarjetaLike" style="grid-column-start: 3; grid-row-start: 3; background-color:white; width:17.5rem; justify-self: center;">
+                    <iframe 
+                        style="border-radius:12px " 
+                        src="https://open.spotify.com/embed/track/42VsgItocQwOQC3XWZ8JNA?utm_source=generator&theme=0" 
+                        width="100%" 
+                        height="160" 
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">
+                    </iframe>
+                    <hr>
+                    <div class="albumLinks">
+                        <p>Escucha este album tambien en:</p>
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_nN64cjl_bbUwCqOq8WvrDTNu8TBSwFpYo&si=2XhZyjWmKh_0XlnN" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusicbold.png" alt=""></a>
+                        <a href="https://music.apple.com/us/album/red-moon-in-venus/1665311474" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusicbold.png" alt=""></a>
+                        <a href="https://deezer.page.link/ASXkfeGe4dpT1dsBA" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerbold.png" alt=""></a>
+                        <a href="https://tidal.com/browse/album/278852722" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidalbold.png" alt=""></a>
+                    </div>
+                    <hr>
+
+                    <button>Me gusta</button>
+                </div>
+        </div>
+
         </section>
         
         <div class="boxPages">
