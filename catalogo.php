@@ -38,13 +38,13 @@
         </div>
         <div class="boxPages">
             <button id="back"><</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
+            <button id="p1">1</button>
+            <button id="p2">2</button>
+            <button id="p3">3</button>
             <button id="next">></button>
         </div>
         <!-- Toda la pagina 1 -->
-        <section class="contenido_page1">
+        <section id="contenido-page1">
             
             <!-- ######### Daft Punk ######### -->
             <div class="boxAlbums" style="background-color: black; color:black;">
@@ -533,24 +533,25 @@
             
         </section>
         <!-- Toda la pagina 2 -->
-        <section class="contenido_page2">
-        
+        <section id="contenido-page2" style="display: none;">
+        <p>pagina2</p>
         </section>
         <!-- Toda la pagina 3 -->
-        <section class="contenido_page3">
-
+        <section id="contenido-page3" style="display: none;">
+            <p>pagina3</p>
         </section>
         
         <div class="boxPages">
             <button id="back"><</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
+            <button id="p1">1</button>
+            <button id="p2">2</button>
+            <button id="p3">3</button>
             <button id="next">></button>
         </div>
         
     </main>
+    <script type="text/javascript" src="code.js"></script>
 </body>
-<script type="text/javascript" src="code.js"></script>
+
 
 </html>
