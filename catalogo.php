@@ -671,6 +671,194 @@
                     <button>Like</button>
                 </div>
         </div>
+
+        <div class="separador">
+            <hr>
+            <div></div>
+            <hr>
+        </div>
+        
+        <!-- ######### Gustavo Cerati ######### -->
+        <div class="boxAlbums" style="background-color: none; color:none;">
+                <h3 class="boxAlbumsTitles" style="background-color: #005B41;">Gustavo Cerati</h3>
+                <!-- #### 1er Tarjeta ####  -->
+                <div class="tarjeta" style="background-color: #005B41;">
+                    <!-- Portada -->
+                    <div class="tarjetaPortada" >
+                        <img style="border-color:#321E1E;" src="img/Catalogo/artistas/cerati/amoramarillo.jpeg" alt="" onclick="abrirImagen(this.src)">
+                        <h4>Amor Amarillo</h4>
+                        <button style="color:none;" >▼</button>
+                        <hr>
+                        <!-- Descripción -->
+                        <div class="tarjetaDescrip">
+                            <p>
+                            Amor amarillo es el primer álbum de estudio solista de la carrera de Gustavo Cerati, realizado en el año 1993 (en plena etapa de fricción con Soda Stereo).
+                            </p>
+                            <p>
+                            El álbum fue una sorpresa para los fanáticos del grupo musical por el hecho que era algo totalmente diferente a lo que venía haciendo y por el hecho de haberse ido a vivir fuera del país poniendo en pausa así la actividad del grupo que en ese momento no se encontraba disuelta.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta con Links y Like -->
+                <div class="tarjetaLike" style="grid-column-start: 1; grid-row-start: 3; background-color:#005B41;">
+                    <iframe 
+                        style="border-radius:12px " 
+                        src="https://open.spotify.com/embed/track/0HX8RMVq75HxkY29P0mfWn?utm_source=generator&theme=0" 
+                        width="100%" 
+                        height="160" 
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">
+                    </iframe>
+                    <hr>
+                    <div class="albumLinks">
+                        <p>Escucha este album tambien en:</p>
+                        <a href="" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
+                        <a href="" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
+                        <a href="" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
+                        <a href="" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
+                    </div>
+                    <hr>
+                    <button>Like</button>
+                </div>
+
+                <!-- #### 2da Tarjeta ####  -->
+                <div class="tarjeta" style="background-color: #005B41;">
+                    <!-- Portada -->
+                    <div class="tarjetaPortada" >
+                        <img style="border-color:#321E1E;" src="img/Catalogo/artistas/cerati/bocanada.jpeg" alt="" onclick="abrirImagen(this.src)">
+                        <h4>Bocanada</h4>
+                        <button style="color:none;" >▼</button>
+                        <hr>
+                        <!-- Descripción -->
+                        <div class="tarjetaDescrip">
+                            <p>
+                            Bocanada es el segundo álbum de estudio solista del músico argentino Gustavo Cerati, el primero luego de la disolución del grupo musical Soda Stereo.
+                            </p>
+                            <p>
+                            Bocanada recibió elogios por la crítica especializada. David Cortés Arce describe el legado del álbum como "un álbum fundamental en la historia del rock iberoamericano, en general de todos los países de habla de hispana".
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta con Links y Like -->
+                <div class="tarjetaLike" style="grid-column-start: 2; grid-row-start: 3; background-color:#005B41;">
+                    <iframe 
+                        style="border-radius:12px " 
+                        src="https://open.spotify.com/embed/track/6gwaa6ElIixNTvu6RwkMyo?utm_source=generator&theme=0" 
+                        width="100%" 
+                        height="160" 
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">
+                    </iframe>
+                    <hr>
+                    <div class="albumLinks">
+                        <p>Escucha este album tambien en:</p>
+                        <a href="" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
+                        <a href="" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
+                        <a href="" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
+                        <a href="" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
+                    </div>
+                    <hr>
+                    <button>Like</button>
+                </div>
+
+                <!-- #### 3er Tarjeta ####  -->
+                <div class="tarjeta" style="background-color: #005B41;">
+                    <!-- Portada -->
+                    <div class="tarjetaPortada" >
+                        <img style="border-color:#321E1E;" src="img/Catalogo/artistas/cerati/ahivamos.jpeg" alt="" onclick="abrirImagen(this.src)">
+                        <h4>Ahí Vamos</h4>
+                        <button style="color:none;" >▼</button>
+                        <hr>
+                        <!-- Descripción -->
+                        <div class="tarjetaDescrip">
+                            <p>
+                            Ahí vamos es el cuarto álbum de estudio como solista del músico artístico de Argentina Gustavo Cerati lanzado el 4 de abril de 2006 por Sony Music.
+                            </p>
+                            <p>
+                            El disco fue certificado como platino en Argentina solo con las ventas anticipadas, y alcanzó el disco de oro en México. En este álbum, Cerati vuelve al estilo roquero y crudo que lo caracterizaba.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta con Links y Like -->
+                <div class="tarjetaLike" style="grid-column-start: 3; grid-row-start: 3; background-color:#005B41;">
+                    <iframe 
+                        style="border-radius:12px " 
+                        src="https://open.spotify.com/embed/track/3oqWr0jDWNXxWufNogGREp?utm_source=generator&theme=0" 
+                        width="100%" 
+                        height="160" 
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">
+                    </iframe>
+                    <hr>
+                    <div class="albumLinks">
+                        <p>Escucha este album tambien en:</p>
+                        <a href="" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
+                        <a href="" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
+                        <a href="" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
+                        <a href="" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
+                    </div>
+                    <hr>
+                    <button>Like</button>
+                </div>
+
+                <!-- #### 4ta Tarjeta ####  -->
+                <div class="tarjeta" style="background-color: #005B41;">
+                    <!-- Portada -->
+                    <div class="tarjetaPortada" >
+                        <img style="border-color:#321E1E;" src="img/Catalogo/artistas/cerati/fuerzanatural.jpg" alt="" onclick="abrirImagen(this.src)">
+                        <h4>Fuerza Natural</h4>
+                        <button style="color:none;" >▼</button>
+                        <hr>
+                        <!-- Descripción -->
+                        <div class="tarjetaDescrip">
+                            <p>
+                            Fuerza natural es el quinto y último álbum de estudio de Gustavo Cerati en su etapa como solista, lanzado el 1 de septiembre de 2009.
+                            </p>
+                            <p>
+                            El disco se caracteriza por un sonido folk con presencia de guitarras acústicas y mandolinas. Fue certificado con disco de oro en Argentina por vender más de 20 000 copias en su primera semana de lanzamiento, luego alcanzó el disco de platino.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta con Links y Like -->
+                <div class="tarjetaLike" style="grid-column-start: 4; grid-row-start: 3; background-color:#005B41;">
+                    <iframe 
+                        style="border-radius:12px " 
+                        src="https://open.spotify.com/embed/track/6WgUNHiMwJazeG4kWPAH1m?utm_source=generator&theme=0" 
+                        width="100%" 
+                        height="160" 
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">
+                    </iframe>
+                    <hr>
+                    <div class="albumLinks">
+                        <p>Escucha este album tambien en:</p>
+                        <a href="" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
+                        <a href="" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
+                        <a href="" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
+                        <a href="" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
+                    </div>
+                    <hr>
+                    <button>Like</button>
+                </div>
+        </div>
+
+        
         </section>
         <!-- Toda la pagina 3 -->
         <section id="contenido-page3" style="display: none;">

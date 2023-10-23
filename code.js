@@ -97,7 +97,7 @@ function pagina1(){
     infopage1.style.display = "block";
     infopage2.style.display = "none";
     infopage3.style.display = "none";
-
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
     // page1.style.opacity = ".5"
     // page1.style.transform = "scale(0.8)"
     // page2.style.backgroundColor = "wheat"
@@ -112,6 +112,7 @@ function pagina2(){
     infopage1.style.display = "none";
     infopage2.style.display = "block";
     infopage3.style.display = "none";
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
 
     // page1.style.backgroundColor = "wheat"
     // page1.style.transform = "scale(1)"
@@ -127,7 +128,7 @@ function pagina3(){
     infopage1.style.display = "none";
     infopage2.style.display = "none";
     infopage3.style.display = "block";
-
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
     // page1.style.backgroundColor = "wheat"
     // page1.style.transform = "scale(1)"
     // page1.style.opacity = "1"

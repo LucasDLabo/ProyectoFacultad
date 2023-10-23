@@ -470,6 +470,7 @@ nav{
     width: 2.5rem;
     font-weight: bolder;
     font-size: 1.25rem;
+    cursor: pointer;
 }
 #back, #next{
     width: 1.563rem;
