@@ -534,7 +534,143 @@
         </section>
         <!-- Toda la pagina 2 -->
         <section id="contenido-page2" style="display: none;">
-        <p>pagina2</p>
+        <!-- ######### Cuarteto de Nos ######### -->
+        <div class="boxAlbums" style="background-color: none; color:none; grid-template-columns: 1fr 1fr 1fr ;">
+            <h3 class="boxAlbumsTitles" style="background-color: #00A9FF;">Cuarteto de Nos</h3>
+            <!-- #### 1er Tarjeta ####  -->
+            <div class="tarjeta" style="background-color: #00A9FF; width:270px; justify-self: center; ">
+                <!-- Portada -->
+                <div class="tarjetaPortada" >
+                    <img style="border-color:white;" src="img/Catalogo/artistas/cuartetodenos/raro.jpeg" alt="" onclick="abrirImagen(this.src)">
+                    <h4>Raro</h4>
+                    <button style="color:none;" >▼</button>
+                    <hr>
+                    <!-- Descripción -->
+                    <div class="tarjetaDescrip">
+                        <p>
+                            Raro es el undécimo álbum de la banda de rock uruguaya El Cuarteto de Nos. Fue producido por Juan Campodónico y lanzado a la venta el 20 de mayo de 2006 por Bizarro Records.
+                        </p>
+                        <p>
+                            En este disco El Cuarteto de Nos muestra una faceta diferente de los discos anteriores. Se aleja de la predominancia de los chistes sexuales y personajes bizarros para experimentar con canciones con rimas complejas y con un sonido más roquero.
+                        </p>
+                    </div>
+                </div>
+            </div>
+                <!-- Tarjeta con Links y Like -->
+                <div class="tarjetaLike" style="grid-column-start: 1; grid-row-start: 3; background-color:#00A9FF; width:290px; justify-self: center;">
+                    <iframe 
+                        style="border-radius:12px " 
+                        src="https://open.spotify.com/embed/track/3tUk2PzTp8KCIU4cxstJq1?utm_source=generator&theme=0" 
+                        width="100%" 
+                        height="160" 
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">
+                    </iframe>
+                    <hr>
+                    <div class="albumLinks">
+                        <p>Escucha este album tambien en:</p>
+                        <a href="" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
+                        <a href="" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
+                        <a href="" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
+                        <a href="" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
+                    </div>
+                    <hr>
+
+                    <button>Like</button>
+                </div>
+
+                <!-- #### 2da Tarjeta ####  -->
+                <div class="tarjeta" style="background-color: #00A9FF;  width:270px; justify-self: center;">
+                    <!-- Portada -->
+                    <div class="tarjetaPortada" >
+                        <img style="border-color:white;" src="img/Catalogo/artistas/cuartetodenos/porfiado.jpeg" alt="" onclick="abrirImagen(this.src)">
+                        <h4>Porfiado</h4>
+                        <button style="color:none;" >▼</button>
+                        <hr>
+                        <!-- Descripción -->
+                        <div class="tarjetaDescrip">
+                            <p>
+                            Porfiado es el decimotercer álbum de estudio de la banda de rock uruguaya . Contiene doce canciones inéditas. Fue lanzado el 25 de abril de 2012 bajo el sello Warner Music.
+                            </p>
+                            <p>
+                            El álbum se caracteriza por contener una amplia variedad de estilos y géneros musicales, al punto de que la revista Rolling Stone no pudo definirlo como un disco de género. Se destaca, sin embargo, la influencia general del hip hop en todo el disco.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta con Links y Like -->
+                <div class="tarjetaLike" style="grid-column-start: 2; grid-row-start: 3; background-color:#00A9FF; width:290px; justify-self: center;">
+                    <iframe 
+                        style="border-radius:12px " 
+                        src="https://open.spotify.com/embed/track/7xB3hSztVbX6xFvQqEGKud?utm_source=generator&theme=0" 
+                        width="100%" 
+                        height="160" 
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">
+                    </iframe>
+                    <hr>
+                    <div class="albumLinks">
+                        <p>Escucha este album tambien en:</p>
+                        <a href="" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
+                        <a href="" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
+                        <a href="" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
+                        <a href="" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
+                    </div>
+                    <hr>
+
+                    <button>Like</button>
+                </div>
+
+                <!-- #### 3er Tarjeta ####  -->
+                <div class="tarjeta" style="background-color: #00A9FF;  width:270px; justify-self: center;">
+                    <!-- Portada -->
+                    <div class="tarjetaPortada" >
+                        <img style="border-color:white;" src="img/Catalogo/artistas/cuartetodenos/jueves.jpeg" alt="" onclick="abrirImagen(this.src)">
+                        <h4>Jueves</h4>
+                        <button style="color:none;" >▼</button>
+                        <hr>
+                        <!-- Descripción -->
+                        <div class="tarjetaDescrip">
+                            <p>
+                            Jueves es el decimosexto álbum de estudio de la banda, publicado el 16 de agosto de 2019 vía plataformas digitales, bajo el sello de Sony Music Argentina.
+                            </p>
+                            <p>
+                            En el día del lanzamiento del álbum fue lanzado el sencillo y videoclip de "Mario Neta". El álbum fue presentado en Buenos Aires el 20 de septiembre del mismo año en el Luna Park, iniciando una gira por Latinoamérica.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta con Links y Like -->
+                <div class="tarjetaLike" style="grid-column-start: 3; grid-row-start: 3; background-color:#00A9FF; width:290px; justify-self: center;">
+                    <iframe 
+                        style="border-radius:12px " 
+                        src="https://open.spotify.com/embed/track/40va05AmHQ9G5cVVe1jxAc?utm_source=generator&theme=0" 
+                        width="100%" 
+                        height="160" 
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">
+                    </iframe>
+                    <hr>
+                    <div class="albumLinks">
+                        <p>Escucha este album tambien en:</p>
+                        <a href="" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
+                        <a href="" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
+                        <a href="" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
+                        <a href="" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
+                    </div>
+                    <hr>
+
+                    <button>Like</button>
+                </div>
+        </div>
         </section>
         <!-- Toda la pagina 3 -->
         <section id="contenido-page3" style="display: none;">

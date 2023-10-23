@@ -32,12 +32,7 @@ function scrollSuave(event) {
     console.log("Posicion: "&& targetElement.offsetTop)
 }
 
-// Funcion cambiar de pestañas en catalogo
-// let goback = document.getElementById("back");
-// let gonext = document.getElementById("next");
-// let page1 = document.getElementById("p1");
-// let page2 = document.getElementById("p2");
-// let page3 = document.getElementById("p3"); 
+
 let goback = document.querySelectorAll("#back");
 let page1 = document.querySelectorAll("#p1");
 let page2 = document.querySelectorAll("#p2");
