@@ -45,6 +45,202 @@
         </div>
         <!-- Toda la pagina 1 -->
         <section class="contenido_page1">
+            
+            <!-- ######### Daft Punk ######### -->
+            <div class="boxAlbums" style="background-color: black; color:black;">
+                <h3 class="boxAlbumsTitles" style="background-color: #ceccc8;">Daft Punk</h3>
+                <!-- Tarjeta Individual  -->
+                <div class="tarjeta" style="background-color: #ceccc8;">
+                    <!-- 1ra Seccion de la tarjeta -->
+                    <div class="tarjetaPortada" >
+                        <img style="border-color:#fed42d;" src="img/Catalogo/artistas/daftpunk/homework.jpeg" alt="" onclick="abrirImagen(this.src)">
+                        <h4>Homework</h4>
+                        <button style="color:black;" >▼</button>
+                        <hr>
+                        <!-- Descripción de la tarjeta -->
+                        <div class="tarjetaDescrip">
+                            <p>
+                                Homework es el álbum debut de estudio del dúo francés de música electrónica Daft Punk, 
+                                lanzado el 20 de enero de 1997 por Virgin Records y Soma Quality Recordings. 
+                            </p>
+                            <p>
+                                Como el primer proyecto del dúo en un sello importante, 
+                                produjeron las pistas del álbum sin planes de lanzarlas, 
+                                pero después de considerar inicialmente lanzarlas como sencillos separados, 
+                                consideraron que el material era lo suficientemente bueno para un álbum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta con Links y Like -->
+                <div class="tarjetaLike" style="grid-column-start: 1; grid-row-start: 3; background-color:#ceccc8;">
+                    <iframe 
+                        style="border-radius:12px " 
+                        src="https://open.spotify.com/embed/track/1pKYYY0dkg23sQQXi0Q5zN?utm_source=generator&theme=0" 
+                        width="100%" 
+                        height="160" 
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">
+                    </iframe>
+                    <hr>
+                    <div class="albumLinks">
+                        <p>Escucha este album tambien en:</p>
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_mfg6NA2Q6rWf2THgxCy4kLKAu7gSy0OrA&si=wvXeLgUHDDVl2oDZ" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusicbold.png" alt=""></a>
+                        <a href="https://music.apple.com/us/album/homework/696884422" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusicbold.png" alt=""></a>
+                        <a href="https://deezer.page.link/d8dCYakLzyXCkQuc7" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerbold.png" alt=""></a>
+                        <a href="https://tidal.com/browse/album/161010" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidalbold.png" alt=""></a>
+                    </div>
+                    <hr>
+
+                    <button>Like</button>
+                </div>
+
+                <!-- Tarjeta Individual  -->
+                <div class="tarjeta" style="background-color: #ceccc8;">
+                    <!-- 1ra Seccion de la tarjeta -->
+                    <div class="tarjetaPortada" >
+                        <img style="border-color:#fed42d;" src="img/Catalogo/artistas/daftpunk/discovery.jpeg" alt="" onclick="abrirImagen(this.src)">
+                        <h4>Discovery</h4>
+                        <button style="color:black;">▼</button>
+                        <hr>
+                        <!-- Descripción de la tarjeta -->
+                        <div class="tarjetaDescrip">
+                            <p>
+                                Discovery es el segundo álbum de estudio del dúo francés de música house Daft Punk, 
+                                lanzado en marzo de 2001.
+                            </p>
+                            <p>
+                                Marcó un cambio en el sonido desde el Chicago house, 
+                                género por el que eran conocidos, al disco, post-disco y house inspirado en el synthpop.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta con Links y Like -->
+                <div class="tarjetaLike" style="grid-column-start: 2; grid-row-start: 3; background-color:#ceccc8;">
+                    <iframe 
+                        style="border-radius:12px "
+                        src="https://open.spotify.com/embed/track/1NeLwFETswx8Fzxl2AFl91?utm_source=generator&theme=0" 
+                        width="100%" 
+                        height="160" 
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">
+                    </iframe>
+                    <hr>
+                    <div class="albumLinks">
+                        <p>Escucha este album tambien en:</p>
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_mz6eafmqdRHSaR4IwG0ll6J6rgv0_ZpGw&si=HR_Ja22uNl2lR8FQ" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusicbold.png" alt=""></a>
+                        <a href="https://music.apple.com/us/album/discovery/697194953" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusicbold.png" alt=""></a>
+                        <a href="https://deezer.page.link/g573vab6RDKpmMQ6A" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerbold.png" alt=""></a>
+                        <a href="https://tidal.com/browse/album/1550545" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidalbold.png" alt=""></a>
+                    </div>
+                    <hr>
+                    <button>Like</button>
+                </div>
+
+                <!-- Tarjeta Individual -->
+                <div class="tarjeta" style="background-color: #ceccc8;">
+                    <!-- 1ra Seccion de la tarjeta -->
+                    <div class="tarjetaPortada" >
+                        <img style="border-color:#fed42d;" src="img/Catalogo/artistas/daftpunk/human.jpeg" alt="" onclick="abrirImagen(this.src)">
+                        <h4>Human After All</h4>
+                        <button style="color:black;">▼</button>
+                        <hr>
+                        <!-- Descripción de la tarjeta -->
+                        <div class="tarjetaDescrip">
+                            <p>
+                            Human After All es el tercer álbum de estudio del dúo francés de música electrónica Daft Punk,
+                            lanzado el 14 de marzo de 2005. 
+                            </p>
+                            <p>
+                            Con este álbum, Daft Punk aplica minimalismo y rock a su estilo musical de French house. 
+                            Recibió críticas mixtas, resaltando su seis semanas de creación, 
+                            que es particularmente corto comparado con sus álbumes anteriores Discovery y Homework.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta con Links y Like -->
+                <div class="tarjetaLike" style="grid-column-start: 3; grid-row-start: 3;background-color:#ceccc8;">
+                    <iframe 
+                        style="border-radius:12px " 
+                        src="https://open.spotify.com/embed/track/7LL40F6YdZgeiQ6en1c7Lk?utm_source=generator&theme=0" 
+                        width="100%" 
+                        height="160" 
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">
+                    </iframe>
+                    <hr>
+                    <div class="albumLinks">
+                        <p>Escucha este album tambien en:</p>
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_kyBLbpI5BRf2wHsxpI8MM_WwF3epmn7U0&si=5VngTBIqiG8zvG-i" title="Youtube Music"><img src="img/Catalogo/Links/ytmusicbold.png" alt=""></a>
+                        <a href="https://music.apple.com/us/album/human-after-all/693748807" title="Apple Music"><img src="img/Catalogo/Links/applemusicbold.png" alt=""></a>
+                        <a href="https://deezer.page.link/Kf9aEz8YMQLkY1kw5" title="Deezer"><img src="img/Catalogo/Links/deezerbold.png" alt=""></a>
+                        <a href="https://tidal.com/browse/album/154502" title="Tidal"><img src="img/Catalogo/Links/tidalbold.png" alt=""></a>
+                    </div>
+                    <hr>
+                    <button>Like</button>
+                </div>
+
+                <!-- Tarjeta Individual -->
+                <div class="tarjeta" style="background-color: #ceccc8;">
+                    <!-- 1ra Seccion de la tarjeta -->
+                    <div class="tarjetaPortada" >
+                        <img style="border-color:#fed42d;" src="img/Catalogo/artistas/daftpunk/ram.jpeg" alt="" onclick="abrirImagen(this.src)">
+                        <h4>Random Access Memories</h4>
+                        <button style="color:black;">▼</button>
+                        <hr>
+                        <!-- Descripción de la tarjeta -->
+                        <div class="tarjetaDescrip">
+                            <p >
+                            Random Access Memories es el cuarto y último álbum de estudio del dúo francés Daft Punk. 
+                            Se publicó oficialmente el 17 de mayo en Australia, el 20 de mayo en Reino Unido y el 21 de mayo de 2013 en Estados Unidos, bajo licencia de Daft Life.
+                            </p>
+                            <p>
+                            Considerado su trabajo más exitoso, Random Access Memories rinde homenaje a la música estadounidense de la década de 1970 
+                            y la primera parte de los 80s, particularmente al sonido de Los Ángeles durante esa época.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta con Links y Like -->
+                <div class="tarjetaLike" style="grid-column-start: 4; grid-row-start: 3;background-color:#ceccc8;">
+                    <iframe 
+                        style="border-radius:12px " 
+                        src="https://open.spotify.com/embed/track/69kOkLUCkxIZYexIgSG8rq?utm_source=generator&theme=0" 
+                        width="100%" 
+                        height="160" 
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">
+                    </iframe>
+                    <hr>
+                    <div class="albumLinks">
+                        <p>Escucha este album tambien en:</p>
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_kNhM2yaBTOVwrcZJepB1C9P3-n5_Sfy5c&si=74oqZgQus0LuzEIH" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusicbold.png" alt=""></a>
+                        <a href="https://music.apple.com/us/album/random-access-memories/617154241" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusicbold.png" alt=""></a>
+                        <a href="https://deezer.page.link/1ekN2KyiC65QTcDG6" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerbold.png" alt=""></a>
+                        <a href="https://tidal.com/browse/album/20115556" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidalbold.png" alt=""></a>
+                    </div>
+                    <hr>
+                    <button>Like</button>
+                </div>
+            </div>
+
+            <div class="separador">
+                <hr>
+                <div></div>
+                <hr>
+            </div>
+
             <!-- ######### Artic Monkeys ######### -->
             <div class="boxAlbums">
                 <h3 class="boxAlbumsTitles">Artic Monkeys</h3>
@@ -238,37 +434,37 @@
                 <hr>
             </div>
 
-            <!-- ######### Daft Punk ######### -->
-            <div class="boxAlbums" style="background-color: black; color:black;">
-                <h3 class="boxAlbumsTitles" style="background-color: #ceccc8;">Daft Punk</h3>
-                <!-- Tarjeta Individual  -->
-                <div class="tarjeta" style="background-color: #ceccc8;">
-                    <!-- 1ra Seccion de la tarjeta -->
+            <!-- ######### Tan Bionica ######### -->
+            <div class="boxAlbums" style="background-color: none; color:none;">
+                <h3 class="boxAlbumsTitles" style="background-color: #0d314b;">Tan Bionica</h3>
+                <!-- #### 1er Tarjeta ####  -->
+                <div class="tarjeta" style="background-color: #0d314b; grid-column-start:2;">
+                    <!-- Portada -->
                     <div class="tarjetaPortada" >
-                        <img style="border-color:#fed42d;" src="img/Catalogo/artistas/daftpunk/homework.jpeg" alt="" onclick="abrirImagen(this.src)">
-                        <h4>Homework</h4>
-                        <button style="color:black;" >▼</button>
+                        <img style="border-color:rgb(236, 236, 236);" src="img/Catalogo/artistas/tanbionica/destinologia.jpeg" alt="" onclick="abrirImagen(this.src)">
+                        <h4>Destinología</h4>
+                        <button style="color:none;" >▼</button>
                         <hr>
-                        <!-- Descripción de la tarjeta -->
+                        <!-- Descripción -->
                         <div class="tarjetaDescrip">
                             <p>
-                                Homework es el álbum debut de estudio del dúo francés de música electrónica Daft Punk, 
-                                lanzado el 20 de enero de 1997 por Virgin Records y Soma Quality Recordings. 
+                            Destinología es el tercer álbum de estudio del grupo musical argentino Tan Biónica. 
+                            Fue lanzado a la venta el 20 de mayo de 2013. 
+                            Fue grabado entre 2012 y 2013, siendo masterizado por Sterling Sounds 
+                            en la ciudad de Nueva York.
                             </p>
                             <p>
-                                Como el primer proyecto del dúo en un sello importante, 
-                                produjeron las pistas del álbum sin planes de lanzarlas, 
-                                pero después de considerar inicialmente lanzarlas como sencillos separados, 
-                                consideraron que el material era lo suficientemente bueno para un álbum.
+                            Para la promoción de Destinología, Tan Biónica llevó adelante el Tour Destinológico, una gira de alrededor de sesenta conciertos que fue llevando a la banda a diversos puntos de la República Argentina y Uruguay.
                             </p>
+
                         </div>
                     </div>
                 </div>
                 <!-- Tarjeta con Links y Like -->
-                <div class="tarjetaLike" style="grid-column-start: 1; grid-row-start: 3; background-color:#ceccc8;">
+                <div class="tarjetaLike" style="grid-column-start: 2; grid-row-start: 3; background-color:#0d314b;">
                     <iframe 
                         style="border-radius:12px " 
-                        src="https://open.spotify.com/embed/track/1pKYYY0dkg23sQQXi0Q5zN?utm_source=generator&theme=0" 
+                        src="https://open.spotify.com/embed/track/29Bjl63rfik8188v8J08hQ?utm_source=generator&theme=0" 
                         width="100%" 
                         height="160" 
                         frameBorder="0" 
@@ -279,42 +475,41 @@
                     <hr>
                     <div class="albumLinks">
                         <p>Escucha este album tambien en:</p>
-                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_mfg6NA2Q6rWf2THgxCy4kLKAu7gSy0OrA&si=wvXeLgUHDDVl2oDZ" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusicbold.png" alt=""></a>
-                        <a href="https://music.apple.com/us/album/homework/696884422" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusicbold.png" alt=""></a>
-                        <a href="https://deezer.page.link/d8dCYakLzyXCkQuc7" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerbold.png" alt=""></a>
-                        <a href="https://tidal.com/browse/album/161010" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidalbold.png" alt=""></a>
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_nj9CV9skUd9GHTY2krCscnSQ0RdWgqDSI&si=K8Yhf78-lynLkttr" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
+                        <a href="https://music.apple.com/us/album/destinologia/1600329146" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
+                        <a href="https://deezer.page.link/6p8Utgz39Q16omKq5" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
+                        <a href="https://tidal.com/browse/album/209155763" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
                     </div>
                     <hr>
 
                     <button>Like</button>
                 </div>
 
-                <!-- Tarjeta Individual  -->
-                <div class="tarjeta" style="background-color: #ceccc8;">
-                    <!-- 1ra Seccion de la tarjeta -->
+                <!-- #### 2da Tarjeta ####  -->
+                <div class="tarjeta" style="background-color: #0d314b;">
+                    <!-- Portada -->
                     <div class="tarjetaPortada" >
-                        <img style="border-color:#fed42d;" src="img/Catalogo/artistas/daftpunk/discovery.jpeg" alt="" onclick="abrirImagen(this.src)">
-                        <h4>Discovery</h4>
-                        <button style="color:black;">▼</button>
+                        <img style="border-color:rgb(236, 236, 236);" src="img/Catalogo/artistas/tanbionica/obsesionario.jpeg" alt="" onclick="abrirImagen(this.src)">
+                        <h4>Obsesionario</h4>
+                        <button style="color:none;">▼</button>
                         <hr>
-                        <!-- Descripción de la tarjeta -->
+                        <!-- Descripción -->
                         <div class="tarjetaDescrip">
                             <p>
-                                Discovery es el segundo álbum de estudio del dúo francés de música house Daft Punk, 
-                                lanzado en marzo de 2001.
+                            Obsesionario es el segundo álbum de estudio del grupo musical argentino Tan Biónica, 
+                            publicado en el año 2010.
                             </p>
                             <p>
-                                Marcó un cambio en el sonido desde el Chicago house, 
-                                género por el que eran conocidos, al disco, post-disco y house inspirado en el synthpop.
+                            Con los éxitos, el grupo musical llegó nuevamente a las listas de las radios más importantes del país, y alcanzó una fuerte rotación en los canales de música nacionales e internacionales.
                             </p>
                         </div>
                     </div>
                 </div>
                 <!-- Tarjeta con Links y Like -->
-                <div class="tarjetaLike" style="grid-column-start: 2; grid-row-start: 3; background-color:#ceccc8;">
+                <div class="tarjetaLike" style="grid-column-start: 3; grid-row-start: 3; background-color:#0d314b;">
                     <iframe 
                         style="border-radius:12px "
-                        src="https://open.spotify.com/embed/track/1NeLwFETswx8Fzxl2AFl91?utm_source=generator&theme=0" 
+                        src="https://open.spotify.com/embed/track/0oH7QF9L9fzDy6EFWlivCC?utm_source=generator&theme=0" 
                         width="100%" 
                         height="160" 
                         frameBorder="0" 
@@ -325,108 +520,16 @@
                     <hr>
                     <div class="albumLinks">
                         <p>Escucha este album tambien en:</p>
-                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_mz6eafmqdRHSaR4IwG0ll6J6rgv0_ZpGw&si=HR_Ja22uNl2lR8FQ" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusicbold.png" alt=""></a>
-                        <a href="https://music.apple.com/us/album/discovery/697194953" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusicbold.png" alt=""></a>
-                        <a href="https://deezer.page.link/g573vab6RDKpmMQ6A" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerbold.png" alt=""></a>
-                        <a href="https://tidal.com/browse/album/1550545" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidalbold.png" alt=""></a>
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_m-t27BHBznS93UM1j1RVMeeSR4rO3ieAs&si=eWqABP5hYnuqSnho" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusiclightbold.png" alt=""></a>
+                        <a href="https://music.apple.com/us/album/obsesionario/1600323788" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusiclightbold.png" alt=""></a>
+                        <a href="https://deezer.page.link/JV6f4wn1CuqBWcTPA" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerlight.png" alt=""></a>
+                        <a href="https://tidal.com/browse/album/209155814" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
                     </div>
                     <hr>
                     <button>Like</button>
                 </div>
 
-                <!-- Tarjeta Individual -->
-                <div class="tarjeta" style="background-color: #ceccc8;">
-                    <!-- 1ra Seccion de la tarjeta -->
-                    <div class="tarjetaPortada" >
-                        <img style="border-color:#fed42d;" src="img/Catalogo/artistas/daftpunk/human.jpeg" alt="" onclick="abrirImagen(this.src)">
-                        <h4>Human After All</h4>
-                        <button style="color:black;">▼</button>
-                        <hr>
-                        <!-- Descripción de la tarjeta -->
-                        <div class="tarjetaDescrip">
-                            <p>
-                            Human After All es el tercer álbum de estudio del dúo francés de música electrónica Daft Punk,
-                            lanzado el 14 de marzo de 2005. 
-                            </p>
-                            <p>
-                            Con este álbum, Daft Punk aplica minimalismo y rock a su estilo musical de French house. 
-                            Recibió críticas mixtas, resaltando su seis semanas de creación, 
-                            que es particularmente corto comparado con sus álbumes anteriores Discovery y Homework.
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-                <!-- Tarjeta con Links y Like -->
-                <div class="tarjetaLike" style="grid-column-start: 3; grid-row-start: 3;background-color:#ceccc8;">
-                    <iframe 
-                        style="border-radius:12px " 
-                        src="https://open.spotify.com/embed/track/7LL40F6YdZgeiQ6en1c7Lk?utm_source=generator&theme=0" 
-                        width="100%" 
-                        height="160" 
-                        frameBorder="0" 
-                        allowfullscreen="" 
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-                        loading="lazy">
-                    </iframe>
-                    <hr>
-                    <div class="albumLinks">
-                        <p>Escucha este album tambien en:</p>
-                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_kyBLbpI5BRf2wHsxpI8MM_WwF3epmn7U0&si=5VngTBIqiG8zvG-i" title="Youtube Music"><img src="img/Catalogo/Links/ytmusicbold.png" alt=""></a>
-                        <a href="https://music.apple.com/us/album/human-after-all/693748807" title="Apple Music"><img src="img/Catalogo/Links/applemusicbold.png" alt=""></a>
-                        <a href="https://deezer.page.link/Kf9aEz8YMQLkY1kw5" title="Deezer"><img src="img/Catalogo/Links/deezerbold.png" alt=""></a>
-                        <a href="https://tidal.com/browse/album/154502" title="Tidal"><img src="img/Catalogo/Links/tidalbold.png" alt=""></a>
-                    </div>
-                    <hr>
-                    <button>Like</button>
-                </div>
-
-                <!-- Tarjeta Individual -->
-                <div class="tarjeta" style="background-color: #ceccc8;">
-                    <!-- 1ra Seccion de la tarjeta -->
-                    <div class="tarjetaPortada" >
-                        <img style="border-color:#fed42d;" src="img/Catalogo/artistas/daftpunk/ram.jpeg" alt="" onclick="abrirImagen(this.src)">
-                        <h4>Random Access Memories</h4>
-                        <button style="color:black;">▼</button>
-                        <hr>
-                        <!-- Descripción de la tarjeta -->
-                        <div class="tarjetaDescrip">
-                            <p >
-                            Random Access Memories es el cuarto y último álbum de estudio del dúo francés Daft Punk. 
-                            Se publicó oficialmente el 17 de mayo en Australia, el 20 de mayo en Reino Unido y el 21 de mayo de 2013 en Estados Unidos, bajo licencia de Daft Life.
-                            </p>
-                            <p>
-                            Considerado su trabajo más exitoso, Random Access Memories rinde homenaje a la música estadounidense de la década de 1970 
-                            y la primera parte de los 80s, particularmente al sonido de Los Ángeles durante esa época.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Tarjeta con Links y Like -->
-                <div class="tarjetaLike" style="grid-column-start: 4; grid-row-start: 3;background-color:#ceccc8;">
-                    <iframe 
-                        style="border-radius:12px " 
-                        src="https://open.spotify.com/embed/track/69kOkLUCkxIZYexIgSG8rq?utm_source=generator&theme=0" 
-                        width="100%" 
-                        height="160" 
-                        frameBorder="0" 
-                        allowfullscreen="" 
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-                        loading="lazy">
-                    </iframe>
-                    <hr>
-                    <div class="albumLinks">
-                        <p>Escucha este album tambien en:</p>
-                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_kNhM2yaBTOVwrcZJepB1C9P3-n5_Sfy5c&si=74oqZgQus0LuzEIH" target="_blank" title="Youtube Music"><img src="img/Catalogo/Links/ytmusicbold.png" alt=""></a>
-                        <a href="https://music.apple.com/us/album/random-access-memories/617154241" target="_blank" title="Apple Music"><img src="img/Catalogo/Links/applemusicbold.png" alt=""></a>
-                        <a href="https://deezer.page.link/1ekN2KyiC65QTcDG6" target="_blank" title="Deezer"><img src="img/Catalogo/Links/deezerbold.png" alt=""></a>
-                        <a href="https://tidal.com/browse/album/20115556" target="_blank" title="Tidal"><img src="img/Catalogo/Links/tidalbold.png" alt=""></a>
-                    </div>
-                    <hr>
-                    <button>Like</button>
-                </div>
             </div>
-
             
         </section>
         <!-- Toda la pagina 2 -->
