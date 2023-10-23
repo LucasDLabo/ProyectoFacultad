@@ -72,6 +72,8 @@ nav{
     display: flex;
     text-align: center;
     align-items: center;
+    height: 2.8rem;
+
 }
 .texto{
     display: flex;
@@ -83,8 +85,8 @@ nav{
 }
 
 .goback a,img{
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 100%;
+    width: auto;
 }
 .formBotones{
     display: flex;
@@ -138,9 +140,58 @@ nav{
     height: 3.125rem;
     border: none;
 } 
-
-
-
+.completarLogin{
+    position: absolute;
+    background-color: yellow;
+    width: 25rem;
+    top: 27.5rem;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+.errorLogin{
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: 25rem;
+    top: 27.5rem;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+.completarLogin2{
+    position: absolute;
+    background-color: yellow;
+    width: 25rem;
+    top: 30rem;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+.errorLogin2{
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: 25rem;
+    top: 30rem;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+.correcto{
+    display: flex;
+    background-color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
 
 
 .header{

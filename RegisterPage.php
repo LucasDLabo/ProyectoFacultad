@@ -7,32 +7,6 @@
     <title>Bienvenido! | Registrate en AlbumPicker</title>
 </head>
 <body>
-    <?php
-    
-        include ("php/conexion.php");
-
-        if(isset($_POST['registrar'])){
-            $username = $_POST['name'];
-            $email = $_POST['mail'];
-            $pass = $_POST['password'];
-        
-            // Verificar que el email y el usuario sean unicos
-            $verif_mail = mysqli_query($conexion,"SELECT email FROM usuarios WHERE email='$email'");
-            $verif_users = mysqli_query($conexion,"SELECT username FROM usuarios WHERE username='$username'");
-            if(mysqli_num_rows($verif_mail) !=0){
-                echo "<p> Este Email ya esta en uso! </p>";
-                echo "<a href='javascript:self.history.back()'><button>Volver</button></a>";
-            }
-            else{
-                mysqli_query($conexion,"INSERT INTO usuarios(username,email,password) VALUES ('$username','$email','$pass')") or die("Ocurrio un error!");
-                echo "<p> Se registro correctamente! </p>";
-                header("location: Catalogo.php");
-    
-            }
-        }
-        else{
-
-    ?>
     <header>
         <nav>
             <div class="dibujo2"></div>
@@ -42,26 +16,31 @@
     </header>
 
     <main>
-        <div class="boxForm" style="margin-top:3.3rem;margin-bottom:3.3rem;">
+        <div class="boxForm" style="margin-top:2rem;;">
             <form action="" method="post" class="formulario" style="height: auto;">
                 <div class="goback">
-                    <a href="index.php" title="Volver"><img src="img/LoginPage/back.png" alt=""></a>
+                <a href="index.php"><img src="img/LoginPage/back.png" alt="" style="cursor: pointer;"></a>
                     <div class="texto">
-                        <p>POR FAVOR, INGRESE SUS DATOS</p>
+                        <p>POR FAVOR, INGRESE SUS DATOS PARA REGISTRARSE</p>
                     </div>
                 </div> 
                 <div class="boxUser">
                     <img src="img/LoginPage/iconUser.png" alt="" title="Usuario">
-                    <input type="text" name="name" >
+                    <input type="text" name="name" placeholder="Ingrese un usuario..." title="Usuario">
                 </div>
                 <div class="boxUser">
                     <img src="img/LoginPage/iconMail.png" alt="" title="Correo Electrónico">
-                    <input type="email" name="mail" id="">
+                    <input type="email" name="mail" id="" placeholder="Ingrese un correo electrónico..." title="Correo Electrónico">
                 </div>
                 <div class="boxUser">
-                    <img src="img/LoginPage/iconPassword.png" alt="" title="Contraseña">
-                    <input type="password" name="password" id="" >
+                    <img src="img/LoginPage/iconPasswordR.png" alt="" title="Contraseña">
+                    <input type="password" name="password" id="" placeholder="Ingrese una contraseña..." title="Contraseña">
                 </div>
+                <?php
+                
+                include("php/formularioRegister.php");
+                
+                ?>
                 <div class="formBotones">
                     <a href="LoginPage.php">¿YA TIENES UNA CUENTA? INICIA SESIÓN</a>
                     <input type="submit" name="registrar" value="REGISTRARME!" style="cursor: pointer;">
@@ -69,6 +48,6 @@
             </form>
         </div>
     </main>
-    <?php } ?>
+
 </body>
 </html>

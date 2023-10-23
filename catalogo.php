@@ -8,6 +8,7 @@
 </head>
 <body>
     <header>
+
         <nav>
             <div class="boxNav" style="background-color: black;">
                 <a href="index.php"><h1>AlbumPicker</h1></a>
@@ -25,13 +26,12 @@
                             echo '<li><a href="LoginPage.php">Iniciar Sesión</a></li>';
                         }
                         ?>
-                        <!-- <li><a href="LoginPage.php">Iniciar Sesión</a></li> -->
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    
+
     <main>
         <div class="boxPages">
             <button id="back"><</button>
@@ -87,7 +87,12 @@
                         <a href="" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
                     </div>
                     <hr>
-                    <button><3</button>
+
+                    <form action="Like.php" method="post">
+                        <input type="text" name="album_id" value="1">
+                        <input type="submit" value="Me gusta">
+                    </form>
+                    <!-- <button>Like</button> -->
                 </div>
 
                 <!-- Tarjeta Individual (Favourite Worst Nightmare) -->
@@ -132,7 +137,7 @@
                         <a href="" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
                     </div>
                     <hr>
-                    <button><3</button>
+                    <button>Like</button>
                 </div>
 
                 <!-- Tarjeta Individual (Tranquility Base Hotel & Casino) -->
@@ -179,7 +184,7 @@
                         <a href="" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
                     </div>
                     <hr>
-                    <button><3</button>
+                    <button>Like</button>
                 </div>
 
                 <!-- Tarjeta Individual (Humbug) -->
@@ -224,7 +229,7 @@
                         <a href="" title="Tidal"><img src="img/Catalogo/Links/tidallightbold.png" alt=""></a>
                     </div>
                     <hr>
-                    <button><3</button>
+                    <button>Like</button>
                 </div>
             </div>
         </section>
@@ -235,6 +240,7 @@
             <button>3</button>
             <button id="next">></button>
         </div>
+        
     </main>
 </body>
 </html>

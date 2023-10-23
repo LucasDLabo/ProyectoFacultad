@@ -11,26 +11,6 @@
     
     include("php/conexion.php");         
 
-    if(isset($_POST['login'])){
-        $username = mysqli_real_escape_string($conexion, $_POST['name']);
-        $password = mysqli_real_escape_string($conexion, $_POST['password']);
-
-
-        $validar_login = mysqli_query($conexion, "SELECT * FROM usuarios WHERE username='$username' and password='$password'");
-        if(mysqli_num_rows($validar_login)>0){
-            session_start();
-            $_SESSION['usuario'] = $username;
-            header("location: Catalogo.php");
-        }else{
-            echo '<script>
-                    alert("EL usuario no existe");
-                    window.location = "index.php";
-                </script>';
-            }
-        }
-
-    else{
-    
     ?>
     <header>
         <nav>
@@ -43,27 +23,37 @@
         <div class="boxForm">
             <form action="" method="post" class="formulario">
                 <div class="goback">
-                    <a href="index.php" title="Volver"><img src="img/LoginPage/back.png" alt=""></a>
+                <!-- onclick="history.back()" -->
+                    <a href="index.php "><img src="img/LoginPage/back.png" alt=""  style="cursor: pointer;"></a>
                     <div class="texto">
-                        <p>POR FAVOR, INGRESE SUS DATOS</p>
+                        <p>POR FAVOR, INGRESE SUS DATOS PARA INICIAR SESIÓN</p>
                     </div>
                 </div>
                 
                 <div class="boxUser">
                     <img src="img/LoginPage/iconUser.png" alt="" title="Usuario">
-                    <input type="text" name="name" >
+                    <input type="text" name="name" placeholder="Ingrese su usuario..." title="Usuario">
                 </div>
                 <div class="boxUser">
-                    <img src="img/LoginPage/iconPassword.png" alt="" title="Contraseña">
-                    <input type="password" name="password" id="" >
+                    <img src="img/LoginPage/iconPasswordR.png" alt="" title="Contraseña" >
+                    <input type="password" name="password" id="" placeholder="Ingrese su contraseña..." title="Contraseña">
                 </div>
+                
+                <?php
+                
+                include("php/formularioLogin.php");
+                
+                ?>
+
                 <div class="formBotones">
                     <a href="RegisterPage.php">¿NO TIENES UNA CUENTA? CREA UNA</a>
                     <input type="submit" name="login" value="INICIAR SESIÓN" style="cursor: pointer;">
                 </div>
     </main>
     <?php
-    }
+    
+    // }
+    
     ?>
 </body>
 </html>
